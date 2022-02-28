@@ -1,0 +1,106 @@
+* <<<OE1>>> INTRODUCTION TO DATA STRUCTURES
+:properties: Ms M Saritha
+:author: 
+:end:
+
+#+BEGIN_COMMENT
+As per the suggestions made in BoS meeting, all the changes have been done.
+#+END_COMMENT
+
+#+startup: showall
+** CO PO MAPPING :noexport:
+#+NAME: co-po-mapping
+|                |    | PO1 | PO2 | PO3 | PO4 | PO5 | PO6 | PO7 | PO8 | PO9 | PO10 | PO11 | PO12 | PSO1 | PSO2 | PSO3 |
+|                |    |  K3 |  K4 |  K5 |  K5 |  K6 |   - |   - |   - |   - |    - |    - |    - |   K5 |   K3 |   K6 |
+| CO1            | K2 |   2 |   2 |   1 |   0 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    1 |    2 |    1 |
+| CO2            | K3 |   3 |   2 |   2 |   0 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+| CO3            | K3 |   3 |   2 |   2 |   0 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+| CO4            | K3 |   3 |   2 |   2 |   0 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+| CO5            | K3 |   3 |   2 |   2 |   0 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+| Score          |    |  14 |  10 |   9 |   0 |   5 |   0 |   0 |   5 |   5 |    5 |    0 |    5 |    9 |   14 |    5 |
+| Course Mapping |    |   3 |   2 |   2 |   0 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+
+{{{credits}}}
+| L | T | P | C |
+| 2 | 0 | 2 | 3 |
+
+** COURSE OBJECTIVES
+- To understand the concepts of sorting and searching techniques
+- To comprehend the notion of linear and non linear data structures
+- To use a suitable data structure for the given problem and implement
+  them in a high level programming language.
+
+{{{unit}}}
+|UNIT I| SORTING AND SEARCHING TECHNIQUES | 6 |
+Sorting: Insertion sort -- Merge sort -- Quicksort; Searching: Linear
+search -- Binary search.
+
+{{{unit}}}
+|UNIT II| LIST  | 6 |
+List -- Array implementation -- Linked lists -- Applications of Lists:
+Polynomial addition.
+
+{{{unit}}}
+|UNIT III | STACK AND QUEUE | 6 |
+Stack: Array implementation of stack -- Applications: Evaluating
+postfix expressions; Queue: Array implementation of queues --
+Applications of queues.
+
+{{{unit}}}
+|UNIT IV | TREES | 6 |
+Tree: Preliminaries -- Tree traversals -- Binary Search Trees --
+Binary Heaps -- Applications of trees.
+
+{{{unit}}}
+|UNIT V | GRAPHS | 6 |
+Graph algorithms: Definitions -- Representation of graphs -- Breadth
+first traversal -- Depth first traversal -- Shortest-path algorithm:
+Dijkstra's algorithm.
+
+\hfill *Theory Periods: 30*
+
+** SUGGESTIVE EXPERIMENTS
+- Implement insertion sort and merge sort
+- Implement linear search and binary search.
+- Implement List ADT using arrays.
+- Represent polynomial as a linked list and perform polynomial
+  addition
+- Array implementation of stack ADT
+- Evaluate postfix expressions using Stack ADT
+- Produce the pre-order, in-order, and post-order traversals of binary
+  trees.
+- Represent graph using adjacency matrix and perform depth first
+  traversal on the graph
+- Implement Dijkstra’s algorithm to find the shortest path using graph
+
+
+
+\hfill *Practical Periods: 30*
+
+\hfill *Total Periods: 60*
+
+** COURSE OUTCOMES
+After the completion of this course, students will be able to: 
+- Implement various sorting and searching algorithms (K2)
+- Implement list and solve problems using them  (K3)
+- Implement stack and queue and use them to solve problems (K3)
+- Implement trees and use them to solve problems (K3)
+- Implement graphs and use them to solve problems (K3).
+
+** TEXT BOOKS
+1. M A Weiss, ``Data Structures and Algorithm Analysis in C'',
+   Second Edition , Pearson Education, 2006.
+2. Richard F Gilberg, Behrouz A Forouzan, ``Data Structures: A
+   Pseudocode Approach with C'', 2nd Edition, Cengage India, 2007.
+
+** REFERENCES
+1. V Aho, J E Hopcroft, and J D Ullman, ``Data Structures and
+   Algorithms'', Pearson Education, 1st Edition, 2003.
+2. Ellis Horowitz, Sartaj Sahni, Susan Anderson-Freed, ``Fundamentals
+   of Data Structures in C'', 2nd Edition, University Press, 2008
+3. S Sridhar, ``Design and Analysis of Algorithms'', 1st Edition,
+   Oxford University Press. 2014.
+4. Byron Gottfried, Jitender Chhabra, ``Programming with C'' (Schaum's
+   Outlines Series), Mcgraw Hill Higher Ed,3rd Edition, 2010.
+# 2. R. F. Gilberg, B. A. Forouzan, ``Data Structures'', Second Edition,
+#   Thomson India Edition, 2005.

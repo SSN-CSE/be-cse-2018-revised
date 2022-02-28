@@ -1,0 +1,111 @@
+* <<<PE302>>> SOCIAL NETWORK ANALYSIS
+:properties:
+:author: Dr. V. S. Felix Enigo and Dr. G. Raghuraman
+:date: 19/3/21
+:end:
+
+#+startup: showall
+
+** CO PO MAPPING :noexport:
+10
+#+NAME: co-po-mapping
+
+|                |    | PO1 | PO2 | PO3 | PO4 | PO5 | PO6 | PO7 | PO8 | PO9 | PO10 | PO11 | PO12 | PSO1 | PSO2 | PSO3 |
+|                |    |  K3 |  K4 |  K5 |  K5 |  K6 |   - |   - |   - |   - |    - |    - |    - |   K5 |   K3 |   K6 |
+| CO1            | k2 |  2  |   2 |   0 |   0 |   0 |   0 |   0 |   0 |   0 |    1 |    0 |    0 |    0 |    0 |    0 |
+| CO2            | k2 |  1  |   2 |   0 |   0 |   0 |   0 |   0 |   0 |   0 |    0 |    0 |    0 |    1 |    0 |    0 |
+| CO3            | k2 |  1  |   1 |   0 |   2 |   0 |   0 |   0 |   0 |   0 |    0 |    0 |    3 |    2 |    0 |    0 |
+| CO4            | K3 |  1  |   1 |   0 |   2 |   3 |   0 |   0 |   0 |   0 |    0 |    0 |    3 |    3 |    0 |    2 |
+| CO5            | K3 |  1  |   1 |   0 |   2 |   3 |   0 |   0 |   0 |   0 |    0 |    0 |    3 |    3 |    0 |    2 |
+| Score          |    |  6  |   7 |   0 |   6 |   6 |   0 |   0 |   0 |   0 |    1 |    0 |    9 |    9 |    0 |    4 |
+| Course Mapping |    |  1  |   1 |   0 |   2 |   3 |   0 |   0 |   0 |   0 |    1 |    0 |    3 |    3 |    0 |    2 |
+
+
+{{{credits}}}
+| L | T | P | C |
+| 3 | 0 | 0 | 3 |
+
+#+BEGIN_COMMENT
+
+Modification
+  - Course Objectives changed
+  - Course Outcome Changed
+  - CO-PO Mapping Changed
+  - 3 outcomes are made K3 level
+  - Text books Versions updated
+#+END_COMMENT
+
+
+** COURSE OBJECTIVES
+- Understand the fundamentals of social network analysis
+- Represent formally social networks 
+- Understand the working of various community detection algorithms
+- Learn to implement SNA algorithms using SNA tools 
+- Learn to do Visualization using SNA tools
+
+{{{unit}}}
+|UNIT I | INTRODUCTION | 9 |
+Social Network Analysis: Development of social network analysis -- Key
+concepts and measures in network analysis -- Electronic Sources for
+Network Analysis: Electronic discussion networks -- Blogs and online
+communities -- Web-based networks -- Social Network Data: Introduction --
+Boundary specification and sampling -- Types of networks -- Network data --
+Measurement and collection.
+
+{{{unit}}}
+|UNIT II | MATHEMATICAL REPRESENTATION OF SOCIAL NETWORKS | 9 |
+Notations for Social Networks: Graph theoretic notations -- Sociometric
+notations -- Algebraic notations -- Two sets of actors -- Graph and
+matrices.
+
+{{{unit}}}
+|UNIT III | COMMUNITY DETECTION METHODOLOGIES, APPLICATIONS | 9 |
+Introduction -- Definition of communities -- Evaluating communities --
+Methodologies of Network Community Mining: Optimization based
+algorithms -- Heuristic methods -- Other methods -- Applications of
+community mining algorithms -- Multi-Relational characterization of
+dynamic social network communities.
+
+{{{unit}}}
+|UNIT IV | PRACTICAL APPROACH TO SOCIAL NETWORK ANALYSIS | 9 |
+Graph Theory: Introduction -- Adjacency matrices -- Graph Traversals and Distances -- Graph Distance; SNA Tool: Get oriented with
+Python and NetworkX -- Centrality; Clique, Clusters and Components: Components and Subgraphs -- Triads -- Cliques -- Hierarchical
+Clustering; 2-Mode networks; A dynamic model in Python. 
+
+
+{{{unit}}}
+|UNIT V | VISUALIZATION AND APPLICATIONS OF SOCIAL NETWORKS | 9 |
+# Graph theory -- Centrality -- Clustering -- 
+Visualizing online social networks -- Visualizing social networks with
+matrix-based representations -- Node-Edge diagrams -- Matrix and
+Node-Link Diagrams -- Hybrid representations; Applications: Covert
+networks -- Community welfare -- Collaboration networks -- Co-citation
+networks.
+
+\hfill *Total Periods: 45*
+
+** COURSE OUTCOMES
+After the completion of this course, students will be able to: 
+- Explain Social network concepts, measures and data (K2)
+- Interpret social networks mathematically (K2)
+- Compare the working of various community detection algorithms for online Social networks (K3)
+- Apply SNA tools for analysing social networks (K3)  
+- Make use of Visualization tools to social networks (K3)
+
+
+** TEXTBOOKS
+
+1. Stanley Wasserman, Katherine Faust, ``Social Network Analysis Methods and Applications'', 1st Edition, Cambridge University
+   Press, 1999. (Unit I and Unit II)
+2. Borko Furht, ``Handbook of Social Network Technologies and Applications'', 1st Edition, Springer, 2010. (Unit III and Unit V)
+
+      
+** REFERENCES
+1. Peter Mika, ``Social Networks and the Semantic Web'', 1st Edition,
+   Springer, 2007. (Unit I)
+2. Maksim Tsvetovat and Alexander Kouznetsov, ``Social Network Analysis for Startups'', O’Reilly,  2011. (Unit IV)
+3. Edward L. Platt, ``Network Science with Python and NetworkX Quick Start Guide: Explore and visualize network data effectively'', Packt Publishing, 2019
+4. Stephen P Borgatti, Martin G Everett, Jeffrey G Johnson, ``Analyzing Social Networks'', SAGE Publications, 2nd Edition, 2018.
+5. Charles Kadushin, ``Understanding Social Networks: Theories, Concepts, and Findings'', 1st Edition, Kindle Edition, Oxford
+   University Press, 2012.
+

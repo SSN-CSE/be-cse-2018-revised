@@ -1,0 +1,133 @@
+* <<<PE503>>> AGILE METHODOLOGIES
+:properties:
+:author: Dr. S. Saraswathi and Dr. K. Madheswari
+:date: 
+:end:
+
+#+startup: showall
+** CO PO MAPPING :noexport:
+#+NAME: co-po-mapping
+|                |    | PO1 | PO2 | PO3 | PO4 | PO5 | PO6 | PO7 | PO8 | PO9 | PO10 | PO11 | PO12 | PSO1 | PSO2 | PSO3 |
+|                |    |  K3 |  K4 |  K5 |  K5 |  K6 |   - |   - |   - |   - |    - |    - |    - |   K5 |   K3 |   K6 |
+| CO1            | K2 |   2 |   2 |   1 |   1 |   1 |   0 |   0 |   1 |   1 |    0 |    1 |    1 |    1 |    2 |    1 |
+| CO2            | K3 |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   1 |   1 |    0 |    1 |    1 |    2 |    3 |    1 |
+| CO3            | K2 |   2 |   2 |   1 |   1 |   1 |   0 |   0 |   1 |   1 |    0 |    1 |    1 |    1 |    2 |    1 |
+| CO4            | K3 |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   1 |   1 |    0 |    1 |    1 |    2 |    3 |    1 |
+| CO5            | K3 |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   1 |   1 |    0 |    1 |    1 |    2 |    3 |    1 |
+| Score          |    |  13 |  10 |   8 |   8 |   5 |   0 |   0 |   5 |   5 |    0 |    5 |    5 |    8 |   13 |    5 |
+| Course Mapping |    |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   1 |   1 |    0 |    1 |    1 |    2 |    3 |    1 |
+
+
+{{{credits}}}
+| L | T | P | C |
+| 3 | 0 | 0 | 3 |
+
+#+begin_comment
+
+1.Anna University Regulation 2017 has this course. 
+2.The syllabus content across units were modified in Autonomous syllabus as adviced by the 
+  domain expert committee.
+    
+ 3.Not Applicable
+4. Five Course outcomes specified and aligned with units
+5.Not Applicable
+#+end_comment
+
+** COURSE OBJECTIVES
+- To understand the basic concepts of Agile software process
+- To learn about agile requirement engineering
+- To learn planning and management in agile software development
+- To study various agile methods
+- To learn the principles of agile testing and quality assurance. 
+
+{{{unit}}}
+| UNIT I | INTRODUCTION | 9 |
+Iterative and Evolutionary Development; Introduction to Agile: Agile
+development -- Classification of methods -- Agile manifesto and
+principles -- Communication and feedback -- Specific agile methods --
+Agile modelling; Theories for Agile Management; Management Accounting
+for Systems; Agile Project Management: Traditional versus RAD model
+for project management -- Task planning and effort tracking -- The
+project manager's new work.
+#+begin_comment
+The topics Iterative and Evolutionary Development is added to differentiate agile from other methodologies.
+#+end_comment
+
+{{{unit}}}
+| UNIT II | REQUIREMENTS ENGINEERING FOR AGILE METHODS | 9 |
+Traditional and Agile Requirement Engineering; Methods and Tools for
+Agile Practitioners: Requirements elicitation -- Requirements
+representation and documentation -- Requirements analysis --
+Requirements management; Agile Approaches to Requirements Engineering:
+The customer -- Requirements evolution -- Non-functional requirements;
+Tools for Requirements Management in AMs.
+#+begin_comment
+Focuses on agile requirement engineering whereas anna university syllabus on unit II is about agile process that not in flow 
+#+end_comment
+
+{{{unit}}}
+| UNIT III | AGILE PROJECT PLANNING AND DEVELOPMENT MANAGEMENT | 9 |
+Agile Project Planning: The Project buffer and its usage -- Logical
+collection of inventory -- Critical path -- Parallel path -- Critical
+chain -- Project tracking metrics; Agile Development Management:
+Identifying and monitoring the flow -- Bottleneck; Agile Maturity
+Model: A new maturity model.
+#+begin_comment
+This unit in on agile project planning and developement  whereas anna university syllabus discuss on knowledge management
+#+end_comment
+
+{{{unit}}}
+| UNIT IV | AGILE METHODS | 9 |
+Scrum: Method overview -- Life cycle -- Work products -- Values --
+Roles and practices -- Process mixtures -- Adoption strategies;
+Extreme Programming; Unified Process; EVO.
+#+begin_comment
+Agile Methods are discussed whereas anna university syllabus discuss on Requirement Engineering that is not in flow
+#+end_comment
+
+{{{unit}}}
+| UNIT V | AGILE TESTING AND QUALITY ASSURANCE | 9 |
+Agile testing: Nine principles and six concrete practices for testing
+on agile teams; Agile Metrics: Feature driven development (FDD) --
+Financial and production metrics in FDD -- Agile approach to quality
+assurance -- Test driven development; SMM: A process improvement
+framework for agile requirements engineering practices.
+#+begin_comment
+Testing is added in addition to quality in anna university syllabus
+  
+#+end_comment
+
+\hfill *Total Periods: 45*
+
+** COURSE OUTCOMES
+Upon the completion of the course the students should be able to: 
+- Understand evolutionary, iterative and adaptive development methods (K2)
+- Apply agile software process in requirement engineering (K3)
+- Understand agile methods for project planning and developement (K2)
+- Apply agile methods for software design (K3)
+- Apply agile based testing and quality assurance (K3).
+
+** TEXT BOOKS
+1. David J Anderson, Eli Schragenheim, ``Agile Management for
+   Software Engineering: Applying the Theory of Constraints for
+   Business Results'', Prentice Hall, 2003. ( Unit 1, Unit 3, Unit 5)
+2. Craig Larman, ``Agile and Iterative Development: A Manager's
+   Guide'', Addison-Wesley, 2004. (Unit 1, Unit 4)
+3. Elisabeth Hendrickson, ``Agile Testing'' Quality Tree Software
+   Inc 2008. (Unit 5)
+
+	
+** REFERENCES
+1. Hazza, Dubinsky, ``Agile Software Engineering, Series:
+   Undergraduate Topics in Computer Science'',
+   Springer, 2009. (Unit 5)
+2. Chetankumar Patel, Muthu Ramachandran, ``Story Card Maturity
+   Model (SMM): A Process Improvement Framework for Agile Requirements
+   Engineering Practices'', Journal of Software, Academy Publishers,
+   Vol 4, No 5, 422-435, Jul 2009. (Unit 5)
+3. Kevin C Desouza, ``Agile Information Systems: Conceptualization,
+   Construction, and Management'', Butterworth-Heinemann, 2007.
+4. Didar Zowghi, Zhi Jin, ``Requirements Engineering'', Springer ,
+   chapter 15, 2014. (Unit 2)
+5. Aybuke Aurum, Claes Wohlin, ``Engineering and Managing Software
+   Requirements'', Springer 2005, chapter 14. (Unit 2)

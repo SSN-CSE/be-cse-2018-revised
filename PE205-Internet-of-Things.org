@@ -1,0 +1,104 @@
+* <<<PE205>>> INTERNET OF THINGS
+:properties:
+:author: Dr. V. S. Felix Inigo and Mr. K. R. Sarath Chandran
+:date: 
+:end:
+
+#+begin_comment
+- 1. Some content refinement has been made.
+- 2. For changes, see the individual units.
+- 3. BE and ME syllabi are different.
+- 4. Five Course outcomes specified and aligned with units
+- 5. Not Applicable.
+- 6. In response to Mr. Karthik Comments:  Since this course is designed to learn the fundamentals of IoT and its concepts, the advanced concepts of IoT Search Engine can be introduced in higher level course.
+#+end_comment
+
+#+startup: showall
+** CO PO MAPPING :noexport:
+#+NAME: co-po-mapping
+|                |    | PO1 | PO2 | PO3 | PO4 | PO5 | PO6 | PO7 | PO8 | PO9 | PO10 | PO11 | PO12 | PSO1 | PSO2 | PSO3 |
+|                |    |  K3 |  K4 |  K5 |  K5 |  K6 |   - |   - |   - |   - |    - |    - |    - |   K5 |   K3 |   K6 |
+| CO1            | K2 |   2 |   2 |   1 |   0 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    1 |    2 |    1 |
+| CO2            | K2 |   2 |   2 |   1 |   0 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    1 |    2 |    1 |
+| CO3            | K2 |   2 |   2 |   1 |   0 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    1 |    2 |    1 |
+| CO4            | K2 |   2 |   2 |   1 |   1 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    1 |    2 |    1 |
+| CO5            | K3 |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+| Score          |    |  11 |  10 |   6 |   3 |   5 |   0 |   0 |   5 |   5 |    5 |    0 |    5 |    6 |   11 |    5 |
+| Course Mapping |    |   3 |   2 |   2 |   1 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+{{{credits}}}
+| L | T | P | C |
+| 3 | 0 | 0 | 3 |
+
+** COURSE OBJECTIVES
+- To understand the fundamentals and architecture of Internet of Things
+- To learn about the sensors and different layer protocols 
+- To learn the best practices in security and data analytics in IoT infrastructure
+- To study the concept of Internet of Things in the real world applications. 
+
+
+{{{unit}}}
+| UNIT I | INTRODUCTION TO IoT | 9 |
+Genesis -- Impact and Challenges of IoT -- IoT Network Architecture
+and Design: Need for new architectures -- Basic IoT Architecture --
+foneM2M and IoT world forum architectures -- Core IoT functional stack
+-- IoT data management and compute stack.
+
+{{{unit}}}
+| UNIT II | ENGINEERING IoT NETWORKS | 9 |
+Sensing Devices: Sensors -- Actuators -- MEMS -- Smart objects --
+Sensor networks -- Connecting smart objects; IoT Access Technologies:
+IEEE 802.15.4 -- IEEE 802.15.4g and 802.15.4e -- IEEE 1901.2a -- IEEE
+802.11ah -- LoRaWAN -- NB-IoT and other LTE variations.
+
+{{{unit}}}
+| UNIT III | IoT NETWORK AND APPLICATION LAYER PROTOCOLS | 9 |
+IP as IoT network layer -- Adoption or adaption of IP -- Need for
+optimization -- Optimizing IP for IoT -- Profiles and Compliances; IoT
+Application Transport Methods: Non-Application Layer -- SCADA -- Web
+Based Protocols -- IoT Application Layer Protocols : CoAP and MQTT.
+
+{{{unit}}}
+| UNIT IV | DATA ANALYTICS FOR IoT | 9 |
+Introduction -- Machine Learning -- Big Data Analytics Tools and
+Technologies -- Edge Streaming Analytics -- Network Analytics.
+
+{{{unit}}}
+| UNIT V | IoT SECURITY AND CASE STUDY | 9 |
+Cyber Security Vernacular -- Anatomy of IoT Cyber Attacks -- Physical
+and Hardware Security -- IoT Security and Best Practices;
+Case Study: Smart and connected cities.
+
+\hfill *Total Periods: 45*
+
+** COURSE OUTCOMES
+After completion of this course, students should be able to:
+- Explain the basics and different architectures of IoT (K2)
+- Discuss various sensors and access protocols for IoT (K2)
+- Select different transport and application layer protocols based on
+  application’s requirements (K2)
+- Discuss various machine learning and data analytics techniques for
+  IoT applications (K2)
+- Use security aspects in designing real time IoT applications (K3).
+
+
+** TEXT BOOKS
+1. David Hanes, Gonzalo Salgueiro, Patrick Grossetete, Robert Barton,
+   Jerome Henry, ``IoT Fundamentals: Networking Technologies,
+   Protocols, and Use Cases for the Internet of Things'', Cisco Press,
+   Pearson, 2019.
+2. Perry Lea, ``Internet of Things for Architects'', Packt Publishing,
+   O'Reilly, January 2018.
+
+** REFERENCES
+1. Arshdeep Bahga, Vijay Madisetti, ``Internet of Things: A hands-on
+   Approach'', Universities Press, 2015.
+2. Dieter Uckelmann, Mark Harrison, Michahelles, Florian (Eds),
+   ``Architecting the Internet of Things'', Springer, 2011.
+3. Honbo Zhou, ``The Internet of Things in the Cloud: A Middleware
+   Perspective'', CRC Press, 2012.
+4. Jan Holler, Vlasios Tsiatsis , Catherine Mulligan, Stamatis ,
+   Karnouskos, Stefan Avesand, David Boyle, ``From Machine-to-Machine
+   to the Internet of Things -- Introduction to a New Age of
+   Intelligence'', Elsevier, 2014.
+5. Olivier Hersent, David Boswarthick, Omar Elloumi, ``The Internet of
+   Things -- Key applications and Protocols'', Wiley, 2012.

@@ -1,0 +1,76 @@
+* <<<407>>> OPERATING SYSTEMS LAB
+:properties:
+:author: Mr. H. Shahul Hamead and Ms. S. Lakshmi Priya
+:date: 13-11-2018
+:end:
+
+** CO PO MAPPING :noexport:
+#+NAME: co-po-mapping
+|                |    | PO1 | PO2 | PO3 | PO4 | PO5 | PO6 | PO7 | PO8 | PO9 | PO10 | PO11 | PO12 | PSO1 | PSO2 | PSO3 |
+|                |    |  K3 |  K4 |  K5 |  K5 |  K6 |   - |   - |   - |   - |    - |    - |    - |   K5 |   K3 |   K6 |
+| CO1            | K3 |   3 |   2 |   2 |   2 |   1 |   1 |   0 |   0 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+| CO2            | K3 |   3 |   2 |   2 |   2 |   1 |   1 |   0 |   0 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+| CO3            | K3 |   3 |   2 |   2 |   2 |   1 |   1 |   0 |   0 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+| CO4            | K3 |   3 |   2 |   2 |   2 |   1 |   1 |   0 |   0 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+| CO5            | K3 |   3 |   2 |   2 |   2 |   1 |   1 |   0 |   0 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+| Score          |    |  15 |  10 |  10 |  10 |   5 |   5 |   0 |   0 |   5 |    5 |    0 |    5 |   10 |   15 |    5 |
+| Course Mapping |    |   3 |   2 |   2 |   2 |   1 |   1 |   0 |   0 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+
+
+#+begin_comment
+ 1. 2 Experiments removed
+ 2. Shell programming experiment removed.
+ Deadlock detection is removed as deadlock avoidance is already there under deadlock concept. 
+ 3. Not Applicable
+ 4. Five course outcomes clearly defined and aligned with the experiments
+ 5. Lab requirements clearly outlined.
+#+end_comment
+
+#+startup: showall
+
+{{{credits}}}
+| L | T | P | C |
+| 0 | 0 | 3 | 1.5 |
+
+** COURSE OBJECTIVES
+- To learn and implement basic Unix commands using system calls
+- To implement various CPU Scheduling Algorithms
+- To implement Process Creation and Inter Process Communication
+- To implement Deadlock Avoidance and Deadlock Detection algorithms
+- To implement Page Replacement Algorithms
+- To implement File Organization and File Allocation Strategies
+
+** SUGGESTIVE EXPERIMENTS
+1. Basics of UNIX commands and study of system calls.
+2. Implement a few UNIX commands using system calls.
+3. Implement the various CPU Scheduling Algorithms
+4. Implement Semaphores
+5. Implement Shared memory and IPC
+6. Implement Bankers Algorithm for Deadlock Avoidance
+7. Implement Threading & Synchronization Applications
+8. Implement the following Memory Allocation Methods for variable
+   sized partition: a) First Fit b) Worst Fit c) Best Fit
+9. Implement Paging Technique of Memory Management
+10. Implement the following Page Replacement Algorithms
+    a) FIFO     b) LRU      c) LFU
+11. Implement the various File Organization Techniques
+    a) Single-level   b) Hierarchical
+12. Implement the following File Allocation Strategies
+    a) Sequential     b) Indexed        c) Linked
+
+\hfill *Total Periods: 45*
+
+** COURSE OUTCOMES
+After the completion of this course, students will be able to: 
+- Profile the performance of various CPU Scheduling Algorithms (K3)
+- Implement Deadlock avoidance and Detection Algorithms (K3)
+- Implement Semaphores and IPC (K3)
+- Profile the performance of the various Page Replacement Algorithms (K3)
+- Implement  File Organization and File Allocation Strategies (K3)
+      
+** LABORATORY REQUIREMENT FOR BATCH OF 38 STUDENTS
+Hardware:\\
+1. Standalone Desktops with Linux OS  - 38 Nos
+
+Software:\\
+1. C/C++ Compiler 

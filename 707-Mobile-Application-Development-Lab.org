@@ -1,0 +1,74 @@
+* <<<707>>> MOBILE APPLICATION DEVELOPMENT LAB
+:properties:
+:author: Dr. V. S. Felix Enigo and Ms. A. Beulah
+:end:
+
+#+startup: showall
+
+
+** CO PO MAPPING :noexport:
+#+NAME: co-po-mapping
+|                |    | PO1 | PO2 | PO3 | PO4 | PO5 | PO6 | PO7 | PO8 | PO9 | PO10 | PO11 | PO12 | PSO1 | PSO2 | PSO3 |
+|                |    |  K3 |  K4 |  K5 |  K5 |  K6 |   - |   - |   - |   - |    - |    - |    - |   K5 |   K3 |   K6 |
+| CO1            | K3 |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+| CO2            | K3 |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+| CO3            | K3 |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+| CO4            | K3 |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+| CO5            | K3 |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+| Score          |    |  15 |  11 |  10 |  10 |   5 |   0 |   0 |   5 |   5 |    5 |    0 |    5 |   10 |   15 |    5 |
+| Course Mapping |    |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+
+
+
+{{{credits}}}
+| L | T | P | C |
+| 0 | 0 | 3 | 1.5 |
+
+#+begin_comment
+1. The same lab is there in AU-R2017, but we have added hybrid mobile application in addition to native application
+2. Changes are:
+Deletions 
+        Sending Email, RSS Feed - Reason:  Email not much used, RSS will not work in Proxy
+Addition
+        Hybrid mobile application, keyboard based app, menus were added 
+
+3. The same lab is in AU-R2017, but we have additional added some experiments and removed some as mentioned above.
+4. 5 Course outcomes have been specified and it was aligned with the experiments given.
+5. Done.
+#+end_comment
+
+** COURSE OBJECTIVES
+- To develop native mobile applications
+- To develop hybrid mobile applications.
+
+
+** SUGGESTIVE EXPERIMENTS
+1. Develop an application that uses GUI components, Layout Managers and event listeners.
+2. Develop an application to simulate a keyboard.
+3. Create an application that uses graphical primitives.
+4. Develop an application that makes use of databases.
+5. Implement an application that uses Multi-threading.
+6. Develop a native application that uses GPS location information.
+7. Implement an application that writes data to the SD card.
+8. Implement an application that send a SMS and creates an alert upon receiving the SMS.
+9. Create an application that makes use of Menu.
+10. Develop an application to build an alarm clock.
+11. Implement a hybrid mobile application for displaying a website.
+12. Mini Project (Food delivery app, Attendance tracking app, Online ticket booking app  etc.)
+
+\hfill *Total Periods: 45*
+
+** COURSE OUTCOMES
+After the completion of this course, students will be able to: 
+- Develop mobile applications using GUI, Layouts and Event Listener(K3)
+- Develop mobile applications using Graphical primitives, Databases, Multithreading and GPS(K3)
+- Develop mobile applications using  SD Card, SMS and Notification(K3)
+- Develop hybrid mobile applications(K3)
+- Develop a mobile app for simple needs (K3).
+
+** LABORATORY REQUIREMENT FOR BATCH OF 38 STUDENTS
+Hardware:\\
+1. Standalone Desktops preferably Intel i5 Machines - 38 Nos
+
+Software:\\
+1. Android or iOS or  Equivalent  Mobile Application Development Tools with appropriate emulators and  debuggers.

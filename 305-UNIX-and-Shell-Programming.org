@@ -1,0 +1,102 @@
+* <<<305>>> UNIX AND SHELL PROGRAMMING
+:properties:
+:author: Mr. B. Senthil Kumar and Dr. S. Sheerazuddin
+:date: 13 November 2018
+:end:
+
+#+startup: showall
+|                |    | PO1 | PO2 | PO3 | PO4 | PO5 | PO6 | PO7 | PO8 | PO9 | PO10 | PO11 | PO12 | PSO1 | PSO2 | PSO3 |
+|                |    |  K3 |  K4 |  K5 |  K5 |  K6 |   - |   - |   - |   - |    - |    - |    - |   K5 |   K3 |   K6 |
+| CO1            | K3 |   3 |   0 |   2 |   2 |   1 |   0 |   0 |   2 |   3 |    2 |    0 |    3 |    2 |    3 |    1 |
+| CO2            | K3 |   3 |   0 |   2 |   2 |   1 |   0 |   0 |   2 |   3 |    2 |    0 |    3 |    2 |    3 |    1 |
+| CO3            | K2 |   2 |   0 |   1 |   1 |   1 |   0 |   0 |   2 |   3 |    2 |    0 |    3 |    1 |    2 |    1 |
+| CO4            | K3 |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   2 |   3 |    2 |    0 |    3 |    2 |    3 |    1 |
+| CO5            | K2 |   2 |   2 |   1 |   1 |   1 |   0 |   0 |   2 |   3 |    2 |    0 |    3 |    1 |    2 |    1 |
+| Score          |    |  12 |  10 |   8 |   8 |   5 |   0 |   0 |  10 |  15 |   10 |    0 |   15 |    8 |   12 |    5 |
+| Course Mapping |    |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   2 |   3 |    2 |    0 |    3 |    2 |    3 |    1 |
+{{{credits}}}
+|L|T|P|C|
+|2|0|2|3|
+
+#+begin_comment
+We are not aware of any Unix and Shell Programming course in the Anna
+University curriculum.  We believe it is an entirely new course in our
+curriculum.
+#+end_comment
+
+
+** Course Objectives
+- To learn UNIX Commands
+- To learn vi Editor
+- To learn File handling in UNIX
+- To learn Shell Programming.
+
+{{{unit}}}
+| UNIT I  | FILE SYSTEM | 6 |
+Computer system -- UNIX environment -- UNIX structure; File Systems --
+Security and File Permission; Basic vi Editor: Modes and commands.
+
+{{{unit}}}
+| UNIT II | COMMANDS  | 6 |
+Filters; Regular Expressions; grep; sed: Addresses, Commands; awk:
+Patterns, Actions, Associative Arrays.
+# Local commands in vi; Range commands in vi -- Global commands in vi;
+# Rearrange text in vi.
+
+{{{unit}}}
+| UNIT III | BASH BASICS | 6 |
+Introduction to Shells; Customizing your environment; Basic Shell
+Programming.
+
+{{{unit}}}
+| UNIT IV | SHELL PROGRAMMING | 6 |
+Flow control; Command-line options and Typed Variables
+
+{{{unit}}}
+| UNIT V | INPUT/OUTPUT | 6 |
+Input/Output and Command-Line Processing; Process Handling; bash
+Administration. 
+
+#+begin_comment
+As per the suggestion of BoS, removed signals from Unit V and added
+sed and awk.
+#+end_comment
+
+\hfill *Total Periods: 30*
+
+** LIST OF EXPERIMENTS
+1. Exercises on basic UNIX commands.
+2. Exercises on file and directory handling.
+3. Exercises on security and file permissions.
+4. Exercises on pipes, quotes, aliases and variables.
+5. Exercises on filters.
+6. Exercises on sed
+7. Exercises on awk.
+
+*Total Periods: 30*
+
+** Course Outcomes
+After the completion of this course, students will be able to:
+- Work in UNIX environment and use VI editor (K3)
+- Use filters, regular expressions, and patterns (K3)
+- Work with the bash Shell (K2)
+- Write Shell programs (K3)
+- Handle I/O and processes (K2)
+
+** TEXTBOOK
+1. Behrouz Forouzan, Richard Gilberg ``UNIX and Shell Programming:
+   A Textbook'', Thomson Learning, 2005 (Units I & II).
+2. Cameron Newham, Bill Rosenblatt ``Learning the Bash Shell'',
+   Third Edition, O'Reilly, 2005 (Units III, IV & V).
+
+** REFERENCES
+1. Mike Loukides, Tim O'Reilly, Jerry Peek, Shelley Powers, ``Unix
+   Power Tools'', 3rd Edition, O'Reilly, 2009.
+2. Sumitabha Das, ``Unix: Concepts and Applications'', Tata McGraw
+   Hill,2017.
+3. Richard Blum, Christine Bresnahan, ``Linux Command Line and
+   Shell Scripting Bible'', Wiley, 2015.
+4. Stephen Kochan, Patrick Wood, ``Shell Programming in UNIX, Linux
+   and OSX'', Addison Wesley, 2016.
+5. Randal K Michael, ``Mastering Unix Shell Scripting'', 2nd Edition,
+   Wiley, 2008.

@@ -1,0 +1,87 @@
+* <<<PE308>>> SOFTWARE ARCHITECTURE
+:properties:
+:autho: Dr. Chitra Babu
+:date: 18 June 2019
+:end:
+
+#+startup: showall
+
+#+begin_comment
+- 1. Split the first unit of M.E (SE) R2017 Software Architecture into two units
+- 2. Removed the second unit on Software Design
+- 3. The unit headings have been suitably changed
+- 4. Five Course outcomes specified and aligned with units
+- 5. Not Applicable
+#+end_comment
+
+
+{{{credits}}}
+| L | T | P | C |
+| 3 | 0 | 0 | 3 |
+
+
+** COURSE OBJECTIVES
+- To understand the various architectural views and quality attributes 
+- To learn the architectural styles
+- To study the architectural description languages
+- To learn the architecture evaluation techniques
+- To relate software architecture and software quality attributes.
+
+{{{unit}}}
+| UNIT I |ARCHITECTURAL VIEWS AND QUALITY ATTRIBUTES | 9 |
+Basic Concepts of Software Architecture -- Architecture Business Cycle
+-- Architectural Patterns -- Reference Models -- Architectural
+Structures, Views; Module Views, Component-Connector Views, Allocation Views --
+Understanding Quality Attributes --
+Functionality and Architecture -- Architecture and Quality Attributes
+-- System Quality Attributes -- Quality Attribute Scenarios in
+Practice 
+
+{{{unit}}}
+| UNIT II |ARCHITECTURAL STYLES | 9 |
+Introduction to Architectural Styles -- Simple Styles --
+Distributed and Networked Architectures -- Architecture for Network
+based Applications -- Decentralized Architectures.
+
+{{{unit}}}
+| UNIT III | ARCHITECTURE DESCRIPTION, DOCUMENTATION AND EVALUATION | 9 |
+Early Architecture Description Languages -- Domain and Style Specific
+ADLs -- Extensible ADLs -- Documenting Software Architectures --
+Architecture Evaluation -- ATAM; 
+
+{{{unit}}}
+| UNIT IV | CREATING ARCHITECTURE  | 9 |
+Introducing Tactics -- Availability Tactics -- Modifiability Tactics
+-- Performance Tactics -- Security Tactics -- Testability Tactics --
+Usability Tactics -- Relationship of Tactics to Architectural Patterns
+-- Architectural Patterns and Styles.
+
+{{{unit}}}
+| UNIT V | CASE STUDIES | 9 |
+
+Distributed Architectures for Data-intensive Systems that use Microservices --
+Architecture of Software Systems involving Internet-of-Things(IoT).
+
+\hfill *Total Periods: 45*
+
+** COURSE OUTCOMES
+After the completion of this course, students will be able to: 
+1. Describe various architectural views and quality attributes(K2)
+2. Apply suitable architectural styles based on the software quality requirements (K3)
+3. Define ADLs and evaluate alternate architectural solutions (K4)
+4. Construct new architectures based on the quality attribute requirements (K4)
+5. Analyze the architectural decisions for building data-intensive and IoT systems(K4)
+
+** TEXTBOOKS
+  
+ 1. Len Bass, Paul Clements, Rick Kazman, ``Software Architecture in
+   Practice'', Third Edition, Addison Wesley, 2012.
+ 2. Richard N Taylor, Nenad Medvidovic, Eric M Dashofy, ``Software
+   Architecture: Foundations, Theory and Practice'', Wiley 2010.
+** REFERENCES
+ 
+1. Mary Shaw, David Garlan, ``Software Architecture: Perspectives on
+   an Emerging Discipline'', Pearson Education, 2008.
+2. Kai Qian et al., ''Software Architecture and Design Illuminated'', Jones and Bartlett Publishers, Canada, 2010
+3. Martin Kleppman, ''Designing Data-Intensive Applications'', O’Reilly Media, 2017
+4. https://www.researchgate.net/publication/260542337_IoT_Reference_Architecture

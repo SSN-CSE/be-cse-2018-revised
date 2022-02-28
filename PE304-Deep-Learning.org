@@ -1,0 +1,120 @@
+* <<<PE304>>> DEEP LEARNING
+:properties:
+:author: Mr. B. Senthil Kumar and Dr. D. Thenmozhi
+:date: 
+:end:
+
+#+startup: showall
+#+begin_comment
+1. This syllabus was not offered under AU-2017 Regulations for UG.
+2. Introduces the Deep learning theory to undergraduate students which is recent trend and 
+   has its application in different areas.
+3. This subject is offered under M.E syllabus with additional unit on Deep learning with Tensorflow. 
+   For changes, see the individual units.
+4. Five Course outcomes specified and aligned with units.
+5. No lab.
+#+end_comment
+
+
+{{{credits}}}
+|L|T|P|C|
+|3|0|0|3|
+
+** COURSE OBJECTIVES
+- To understand the basics of deep neural networks
+- To understand CNN and RNN architectures of deep neural networks
+- To comprehend advanced deep learning models
+- To learn the evaluation metrics for deep learning models.
+
+{{{unit}}}
+|UNIT I|DEEP NETWORKS BASICS|9| 
+Linear Algebra: Scalars -- Vectors -- Matrices and tensors;
+Probability Distributions -- Gradient-based Optimization -- Machine
+Learning Basics: Capacity -- Overfitting and underfitting --
+Hyperparameters and validation sets -- Estimators -- Bias and variance
+-- Stochastic gradient descent -- Challenges motivating deep learning;
+Deep Networks: Deep feedforward networks; Regularization --
+Optimization.
+
+#+begin_comment
+Same as Unit-I in PG syllabus.
+#+end_comment
+
+
+{{{unit}}}
+|UNIT II|CONVOLUTIONAL NEURAL NETWORKS|9| 
+Convolution Operation -- Sparse Interactions -- Parameter Sharing --
+Equivariance -- Pooling -- Convolution Variants: Strided -- Tiled --
+Transposed and dilated convolutions; CNN Learning: Nonlinearity
+Functions -- Loss Functions -- Regularization -- Optimizers --
+Gradient Computation.
+
+#+begin_comment
+Same as Unit-II in PG syllabus except the different CNN architectures.
+#+end_comment
+
+{{{unit}}}
+|UNIT III|RECURRENT NEURAL NETWORKS|10| 
+Unfolding Graphs -- RNN Design Patterns: Acceptor -- Encoder --
+Transducer; Gradient Computation -- Sequence Modeling Conditioned on
+Contexts -- Bidirectional RNN -- Sequence to Sequence RNN -- Deep
+Recurrent Networks -- Recursive Neural Networks -- Long Term
+Dependencies; Leaky Units: Skip connections and dropouts; Gated
+Architecture: LSTM.
+
+#+begin_comment
+Same as Unit-III in PG syllabus. Gated RNN is ignored.
+#+end_comment
+
+
+{{{unit}}}
+|UNIT IV|MODEL EVALUATION|8| 
+Performance metrics -- Baseline Models -- Hyperparameters: Manual
+Hyperparameter -- Automatic Hyperparameter -- Grid search -- Random
+search -- Debugging strategies.
+
+#+begin_comment
+Model evaluation included for beginners in Deep learning. Not in PG syllabus.
+#+end_comment
+
+{{{unit}}}
+|UNIT V|AUTOENCODERS AND GENERATIVE MODELS|9| 
+Autoencoders: Undercomplete autoencoders -- Regularized autoencoders
+-- Stochastic encoders and decoders -- Learning with autoencoders;
+Deep Generative Models: Variational autoencoders -- Generative
+adversial networks.
+
+#+begin_comment
+Same as in Unit-IV in PG syllabus except the Representation learning.
+#+end_comment
+
+
+\hfill *Total Periods: 45*
+
+** COURSE OUTCOMES
+After the completion of this course, students will be able to: 
+- Understand basics in deep neural networks (K2)
+- Apply Convolution Neural Network for image processing (K3)
+- Apply Recurrent Neural Network and its variants for text analysis
+  (K3)
+- Apply model evaluation for various applications (K3)
+- Understand the concepts in autoencoders and generative models (K2).
+
+** TEXT BOOKS
+1. Ian Goodfellow, Yoshua Bengio, Aaron Courville, ``Deep Learning'',
+   MIT Press, 2016.
+
+** REFERENCES
+1. Salman Khan, Hossein Rahmani, Syed Afaq Ali Shah, Mohammed
+   Bennamoun, ``A Guide to Convolutional Neural Networks for Computer
+   Vision'', Synthesis Lectures on Computer Vision, Morgan & Claypool
+   publishers, 2018.
+2. Yoav Goldberg, ``Neural Network Methods for Natural Language
+   Processing'', Synthesis Lectures on Human Language Technologies,
+   Morgan & Claypool publishers, 2017.
+3. Francois Chollet, ``Deep Learning with Python'', Manning
+   Publications Co, 2018.
+4. Charu C. Aggarwal, ``Neural Networks and Deep Learning: A
+   Textbook'', Springer International Punlishing, 2018.
+5. Josh Patterson, Adam Gibson, ``Deep Learning: A Practitioner's
+   Approach'', O'Reilly Media, 2017.

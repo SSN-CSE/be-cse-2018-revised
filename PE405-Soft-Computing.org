@@ -1,0 +1,128 @@
+**  <<<PE405>>> SOFT COMPUTING
+:properties:
+:author: Dr. P. Mirunalini  and Dr. J. Bhuvana
+:date: 
+:end:
+
+#+begin_comment
+- 1. One professional elective is offered by the same name in AU 2017
+- 2. Referred other university syllabus.
+- 3. Offered only in AU BE 2017 curriculum
+- 4. Five Course outcomes specified and aligned with units
+- 5. Not Applicable.
+#+end_comment
+
+#+startup: showall
+
+
+** CO PO MAPPING :noexport:
+#+NAME: co-po-mapping
+|                |    | PO1 | PO2 | PO3 | PO4 | PO5 | PO6 | PO7 | PO8 | PO9 | PO10 | PO11 | PO12 | PSO1 | PSO2 | PSO3 |
+|                |    |  K3 |  K4 |  K5 |  K5 |  K6 |   - |   - |   - |   - |    - |    - |    - |   K5 |   K3 |   K6 |
+| CO1            | K2 |   2 |   2 |   1 |   1 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    1 |    2 |    1 |
+| CO2            | K3 |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+| CO3            | K3 |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+| CO4            | K3 |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+| CO5            | K3 |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+| Score          |    |  14 |  10 |   9 |   9 |   5 |   0 |   0 |   5 |   5 |    5 |    0 |    5 |    9 |   14 |    5 |
+| Course Mapping |    |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+
+
+
+
+{{{credits}}}
+| L | T | P | C |
+| 3 | 0 | 0 | 3 |
+
+** COURSE OBJECTIVES
+- To learn the basic concepts of Soft Computing 
+- To study various Artificial Neural network architectures
+- To learn fuzzy sets, fuzzy logic and fuzzy inference system
+- To understand genetic algorithm for global optimization
+- To learn hybrids of neuro, fuzzy and genetic algorithm, and their
+  applications.
+
+{{{unit}}}
+| UNIT I | INTRODUCTION TO SOFT COMPUTING | 8 |
+Introduction: Neural networks -- Fuzzy logic -- Genetic algorithm --
+Hybrid systems; Artificial Neural Network: Fundamental concepts --
+Evolution of neural networks -- Basic modals of ANN -- McCulloch and
+Pitts neuron -- Linear separability -- Hebb network.
+#+begin_comment
+Almost same, but removed Hebbian  and  Delta-Perceptron Network-Adaline Network-Madaline Network from AU syllabus
+#+end_comment
+
+{{{unit}}}
+| UNIT II | SUPERVISED, UNSUPERVISED, AND ASSOCIATIVE LEARNING NETWORKS | 11 |
+Supervised Learning Network: Perceptron networks -- Adaptive linear
+neuron -- Multiple adaptive linear neurons -- Back propagation
+networks -- Radial bias function network; Associative Memory Networks:
+Autoassociative memory network -- Bidirectional associative memory --
+Hopfield networks; Unspervised Learning Networks: Hamming network --
+Kohonen neural network -- Learning vector quantization -- Adaptive
+resonance theory networks.
+#+begin_comment
+Removed Spike Neuron Models from AU syllabus
+Organised as per supervised, unsupervised learning techniques
+#+end_comment
+
+{{{unit}}}
+| UNIT III | FUZZY SYSTEMS | 9 |
+Introduction to fuzzy logic -- Classical sets -- Fuzzy sets -- Fuzzy
+relations -- Membership functions -- Defuzzification methods -- Fuzzy
+arithmetic -- Fuzzy measures -- Fuzzy rule base and approximate
+reasoning -- Fuzzy decision making.
+
+{{{unit}}}
+| UNIT IV | GENETIC ALGORITHMS | 8 |
+Genetic Algorithm and search space -- General genetic algorithm --
+Operators -- Stopping condition -- Constraints -- Classification --
+Genetic programming; Applications of genetic algorithm.
+#+begin_comment
+Removed individual operator names  in GA 
+Added Constraints, Classification, Genetic programming and Applications
+#+end_comment
+
+{{{unit}}}
+| UNIT V | HYBRID SOFT COMPUTING TECHNIQUES & APPLICATIONS | 9 |
+Neuro-Fuzzy hybrid systems -- Genetic neuro hybrid systems -- Genetic
+fuzzy hybrid and fuzzy genetic hybrid systems; Applications of Soft
+Computing: A fusion approach of multispectral images with SAR --
+Optimization of Traveling Salesman Problem using genetic algorithm --
+Soft computing based hybrid fuzzy controllers.
+#+begin_comment
+Removed GA   Based   Weight Determination, LR-Type  Fuzzy  Numbers , Fuzzy  BP  Architecture -Learning  in  Fuzzy  BP-Inference    by  Fuzzy  BP -Fuzzy  ArtMap:
+ A  Brief  Introduction -Soft Computing Tools -GA in Fuzzy Logic Controller Design -Fuzzy Logic Controller from AU syllabus
+Added Applications of Soft Computing, Optimization of Traveling Salesman Problem using genetic algorithm, Soft computing based hybrid fuzzy controllers.
+#+end_comment
+
+\hfill *Total Periods: 45*
+
+
+** COURSE OUTCOMES
+Upon completion of this course, the students should be able to:
+- Understand various soft computing techniques (K2)
+- Design and develop different neural network algorithms (K3)
+- Analyse and apply fuzzy logic and fuzzy inference system (K3)
+- Solve problems using  Genetic Algorithms (K3)
+- Apply various soft computing techniques for complex problems (K3).
+
+** TEXT BOOKS
+1. S N Sivanandam, S N Deepa, ``Principles of Soft Computing'', Wiley
+   India, 2nd Edition, 2011.
+2. Jyh-Shing Roger Jang, Chuen-Tsai Sun, Eiji Mizutani, ``Neuro-Fuzzy
+   and Soft Computing'', Prentice-Hall of India, 2002.
+
+** REFERENCES
+1. Kwang H Lee, ``First course on Fuzzy Theory and Applications'',
+   Springer, 2005.
+2. George J Klir, Bo Yuan, ``Fuzzy Sets and Fuzzy Logic-Theory and
+   Applications'', Prentice Hall, 1996.
+3. James A Freeman, David M Skapura, ``Neural Networks Algorithms,
+   Applications, and Programming Techniques'', Addison Wesley, 2003.
+4. S Rajasekaran, G A Vijayalakshmi Pai, ``Neural Networks, Fuzzy
+   Logic and Genetic Algorithm, Synthesis and Applications'', PHI
+   Learning, 2017.
+5. N P Padhy, S P Simon, ``Soft Computing with MATLAB Programming'',
+   Oxford University Press, 2015.
+

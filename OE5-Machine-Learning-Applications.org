@@ -1,0 +1,119 @@
+* <<<OE5>>> MACHINE LEARNING APPLICATIONS
+:properties:
+:author: S. Rajalakshmi
+:end:
+
+#+begin_comment
+- 1. No equivalent course in AU 2017 Curriculum
+- 2. Framed the syllabus with a balance of theoretical concepts and practical implementation
+- 3. Text book and syllabus are different from M.E syllabus
+- 4. Five Course outcomes specified and aligned with units
+- 5. Suggestive experiments are given
+#+end_comment
+
+#+startup: showall
+** CO PO MAPPING :noexport:
+#+NAME: co-po-mapping
+|                |    | PO1 | PO2 | PO3 | PO4 | PO5 | PO6 | PO7 | PO8 | PO9 | PO10 | PO11 | PO12 | PSO1 | PSO2 | PSO3 |
+|                |    |  K3 |  K4 |  K5 |  K5 |  K6 |   - |   - |   - |   - |    - |    - |    - |   K5 |   K3 |   K6 |
+| CO1            | K2 |   2 |   2 |   1 |   0 |   1 |   0 |   0 |   0 |   1 |    0 |    0 |    1 |    1 |    2 |    1 |
+| CO2            | K2 |   2 |   2 |   1 |   1 |   1 |   0 |   0 |   0 |   1 |    0 |    0 |    1 |    1 |    2 |    1 |
+| CO3            | K3 |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   0 |   1 |    0 |    0 |    1 |    2 |    3 |    1 |
+| CO4            | K3 |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   0 |   1 |    0 |    0 |    1 |    2 |    3 |    1 |
+| CO5            | K3 |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   0 |   1 |    0 |    0 |    1 |    2 |    3 |    1 |
+| Score          |    |  13 |  10 |   8 |   7 |   5 |   0 |   0 |   0 |   5 |    0 |    0 |    5 |    8 |   13 |    5 |
+| Course Mapping |    |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   0 |   1 |    0 |    0 |    1 |    2 |    3 |    1 |
+
+
+{{{credits}}}
+| L | T | P | C |
+| 2 | 0 | 2 | 3 |
+
+** COURSE OBJECTIVES
+- To understand the need and types of machine learning techniques for
+  various problems
+- To study the various supervised learning
+  algorithms in machine learning
+- To choose appropriate machine learning algorithms to solve realistic
+  problems.
+
+{{{unit}}}
+| UNIT I | MACHINE LEARNING LANDSCAPE | 5 |
+Machine learning and it's use; Types of machine learning; Challenges
+of machine learning; Testing and validating.
+
+{{{unit}}}
+| UNIT II | DEVELOPING A MACHINE LEARNING APPLICATION | 6 |
+Working with real data -- Look at the big picture -- Get the data --
+Discover and visualize the data -- Data preparation -- Select and
+train model.
+
+{{{unit}}}
+| UNIT III | CLASSIFICATION AND REGRESSION | 8 |
+Classification: Training a binary classifier -- Performance measures
+-- Multiclass classification; Regression: Linear regression --
+Gradient descent -- Logistic Regression; Support Vector Machines:
+Linear SVM classification -- Nonlinear SVM classification.
+
+{{{unit}}}
+| UNIT IV | TREE MODELS AND ENSEMBLE LEARNING | 6 |
+Decision Trees: Training and visualizing trees -- Making predictions
+-- Estimating class probabilities -- CART training algorithm --
+Regularization of hyperparameters; Ensemble learning: Voting
+classifiers -- Bagging -- Random forests -- Boosting.
+
+{{{unit}}}
+|UNIT V | ARTIFICIAL NEURAL NETWORKS  | 5 |
+From Biological to Artificial Neurons: Biological neurons -- Logical
+computations with neurons -- Perceptron -- Multi-Layer Perceptron and
+backpropagation; Training a MLP network -- Fine tuning neural network
+hyperparameters; Introduction to Deep Learning.
+
+# Document classification using clustering -- Handwritten character recognition.
+
+# Case study: E-mail spam detection --
+# Sentiment analysis -- 
+
+\hfill *Theory Periods: 30*
+
+** SUGGESTIVE EXPERIMENTS
+ - Data analysis
+ - Machine learning application for house price prediction 
+ - Classification of Iris dataset using multiclass classification
+ - Loan amount prediction using linear regression
+ - E-mail spam detection using support vector machine
+ - Predicting Diabetes using decision tree
+ - Handwritten character recognition using neural networks.
+# - Classification of Iris dataset using Naive Bayes model
+# - Document grouping using K-means clustering
+# - Sentiment analysis / Handwritten character recognition using Ensemble techniques
+
+\hfill *Practical Periods: 30*
+
+\hfill *Total Periods: 60*
+
+** COURSE OUTCOMES
+After the completion of this course, students will be able to: 
+- Understand the basic concepts and types of machine learning (K2)
+- Understand the various steps in developing a machine learning application (K2)
+- Apply various algorithms for classification and regression tasks (K3)
+- Apply tree and ensemble models for various problems (K3)
+- Apply the neural network algorithm for real world problems (K3).
+# - Develop solutions using clustering and ensembling methods for machine learning tasks (K3)
+      
+** TEXT BOOKS
+1. Aurelien Geron, ``Hands-On Machine Learning with Scikit-Learn and
+   TensorFlow'', O'Reilly Media, 2017.
+
+** REFERENCES
+1. Stephen Marsland, ``Machine Learning -- An Algorithmic
+   Perspective'', 2nd Edition, Chapman and Hall/CRC Machine
+   Learning and Pattern Recognition Series, 2014.
+2. Jason Bell, ``Machine learning -- Hands on for Developers and
+   Technical Professionals'', 1st Edition, Wiley, 2014.
+3. Richert, Willi, ``Building Machine Learning Systems with Python'',
+   Packt Publishing Ltd, 2013.
+4. Tom M. Mitchell, ``Machine Learning'', McGraw-Hill Education
+   (India) Private Limited, 2013.
+5. Andreas C. Muller, Sarah Guido, ``Introduction to Machine
+   Learning with Python'', O'Reilly Media, 2016.

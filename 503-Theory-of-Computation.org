@@ -1,0 +1,122 @@
+* <<<503>>> THEORY OF COMPUTATION
+:properties:
+:author: Ms. A. Beulah and Mr. V. Balasubramanian
+:end:
+
+#+startup: showall
+
+
+** CO PO MAPPING :noexport:
+#+NAME: co-po-mapping
+|                |    | PO1 | PO2 | PO3 | PO4 | PO5 | PO6 | PO7 | PO8 | PO9 | PO10 | PO11 | PO12 | PSO1 | PSO2 | PSO3 |
+|                |    |  K3 |  K4 |  K5 |  K5 |  K6 |   - |   - |   - |   - |    - |    - |    - |   K5 |   K3 |   K6 |
+| CO1            | K3 |   3 |   2 |   2 |   2 |   0 |   0 |   0 |   0 |   0 |    0 |    0 |    0 |    2 |    3 |    1 |
+| CO2            | K3 |   3 |   2 |   2 |   2 |   0 |   0 |   0 |   0 |   0 |    0 |    0 |    0 |    2 |    3 |    1 |
+| CO3            | K3 |   3 |   2 |   2 |   2 |   0 |   0 |   0 |   0 |   0 |    0 |    0 |    0 |    2 |    3 |    1 |
+| CO4            | K3 |   3 |   2 |   2 |   2 |   0 |   0 |   0 |   0 |   0 |    0 |    0 |    0 |    2 |    3 |    1 |
+| CO5            | K2 |   2 |   2 |   1 |   1 |   0 |   0 |   0 |   0 |   0 |    0 |    0 |    0 |    1 |    2 |    1 |
+| Score          |    |  14 |  10 |   9 |   9 |   0 |   0 |   0 |   0 |   0 |    0 |    0 |    0 |    9 |   14 |    5 |
+| Course Mapping |    |   3 |   2 |   2 |   2 |   0 |   0 |   0 |   0 |   0 |    0 |    0 |    0 |    2 |    3 |    1 |
+
+
+
+{{{credits}}}
+| L | T | P | C |
+| 3 | 2 | 0 | 4 |
+
+** Course Objectives
+- To construct finite automata for any given pattern and find its
+  equivalent regular expressions
+- To understand the language hierarchy and to design a context free
+  grammar for any given language
+- To construct pushdown automata for any CFL
+- To understand Turing machines and their capability
+- To understand undecidable problems.
+
+#+begin_comment
+1. Each unit is reframed according to the computational models. 
+2. For changes, see the individual units, some units were reordered
+3. This subject is not offered under M.E syllabus.
+4. Five Course outcomes specified and aligned with units.
+#+end_comment
+
+{{{unit}}}
+|UNIT I | FINITE AUTOMATA AND REGULAR LANGUAGES  | 10 |
+Basic Mathematical Notation and Techniques; Finite Automata (FA):
+Deterministic Finite Automata (DFA) -- Non-deterministic Finite
+Automata (NFA) -- Finite automata with epsilon transitions --
+Equivalence of FAs -- Minimization of DFA; Regular Expressions and
+Languages: Regular expressions -- Finite automata and regular
+expressions; Properties of Regular Languages: Proving languages not to
+be regular -- Closure and decision properties of regular languages.
+ 
+#+begin_comment
+AU R-17 Uint I and II are combined together to a single unit. Unit I
+is grouped under Finite Automata.
+#+end_comment
+
+{{{unit}}}
+|UNIT II | CONTEXT FREE GRAMMARS AND LANGUAGES  | 8 |
+Chomsky's Hierarchy of Languages; Context-Free Grammar and Languages:
+Context-Free Grammar (CFG) -- Parse trees -- Ambiguity in grammars and
+languages; Normal Forms for Context Free Grammars: Eliminating useless
+symbols -- Computing the generating and reachable symbols --
+Eliminating null productions -- Eliminating unit productions --
+Chomsky Normal Form (CNF) -- Greibach Normal Form (GNF).
+
+#+begin_comment
+Few topics of AU R-17 Unit III and IV are combined together and named
+as CFG and Languages.
+#+end_comment
+
+{{{unit}}}
+|UNIT III | PUSHDOWN AUTOMATA | 9 |
+Pushdown Automata (PDA): Definition of the Pushdown automaton -- The
+languages of a PDA -- Equivalence of PDAs and CFGs -- Deterministic
+Pushdown automata; Pumping Lemma for Context Free Languages.
+
+#+begin_comment
+Few topics of AU R-17 Uint III is removed and reframed as second
+computational model (Pushdown Automata).
+#+end_comment
+
+{{{unit}}}
+|UNIT IV | TURING MACHINES  | 9 |
+The Turing Machine -- Programming Techniques for Turing Machines --
+Extensions to the Basic Turing Machine -- Restricted Turing Machines.
+
+#+begin_comment
+Turing machine in AU R-17 is a part of Unit IV. Now it is reframed as
+a separate unit with new versions of TM.
+#+end_comment
+
+{{{unit}}}
+|UNIT V | UNDECIDABILITY | 9 |
+Undecidablity: Language that is not Recursively Enumerable (RE) --
+Undecidable problem that is RE -- Undecidable problems about Turing
+machines -- Post's Correspondence Problem (PCP) -- Other undecidable
+problems.
+
+\hfill *Total Periods: 60*
+
+** Course Outcomes
+After the completion of this course, students will be able to: 
+- Construct automata, regular expression for any given pattern (K3)
+- Understand the need of formal languages, and grammars (K3)
+- Design pushdown automata for any CFL (K3)
+- Design Turing machines for any Languages (K3)
+- Explain the Decidability or Undecidability of various problems (K2).
+
+** Text Books 
+1. Hopcroft J E, Motwani R, Ullman J D, ``Introduction to Automata
+   Theory, Languages and Computations'', Pearson Education, 3rd
+   Edition, 2008.
+
+** References
+1. Harry R Lewis, Christos H Papadimitriou, ``Elements of the
+   Theory of Computation'', Prentice Hall of India, 2nd Edition, 2003.
+2. Peter Linz, ``An Introduction to Formal Language and Automata'',
+   Narosa Publishers, 3rd Edition, 2002.
+3. Mishra K L P, Chandrasekaran N, ``Theory of Computer Science --
+   Automata, Languages and Computation'', Prentice Hall of India, 3rd
+   Edition, 2004.

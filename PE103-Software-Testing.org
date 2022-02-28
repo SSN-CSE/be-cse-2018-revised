@@ -1,0 +1,126 @@
+﻿<<<PE103>>> SOFTWARE TESTING
+:properties:
+:author: Dr. K. Madheswari and Dr. A. Chamundeswari
+:end:
+
+#+startup: showall
+** CO PO MAPPING :noexport:
+#+NAME: co-po-mapping
+|                |    | PO1 | PO2 | PO3 | PO4 | PO5 | PO6 | PO7 | PO8 | PO9 | PO10 | PO11 | PO12 | PSO1 | PSO2 | PSO3 |
+|                |    |  K3 |  K4 |  K5 |  K5 |  K6 |   - |   - |   - |   - |    - |    - |    - |   K5 |   K3 |   K6 |
+| CO1            | K2 |   2 |   2 |   1 |   1 |   1 |   1 |   0 |   1 |   1 |    0 |    1 |    1 |    1 |    2 |    1 |
+| CO2            | K3 |   3 |   2 |   2 |   2 |   1 |   1 |   0 |   1 |   1 |    0 |    1 |    1 |    2 |    3 |    1 |
+| CO3            | K3 |   3 |   2 |   2 |   2 |   1 |   1 |   0 |   1 |   1 |    0 |    1 |    1 |    2 |    3 |    1 |
+| CO4            | K3 |   3 |   2 |   2 |   2 |   1 |   1 |   0 |   1 |   1 |    0 |    1 |    1 |    2 |    3 |    1 |
+| CO5            | K3 |   3 |   2 |   2 |   2 |   1 |   1 |   0 |   1 |   1 |    0 |    1 |    1 |    2 |    3 |    1 |
+| Score          |    |  14 |  10 |   9 |   9 |   5 |   5 |   0 |   5 |   5 |    0 |    5 |    5 |    9 |   14 |    5 |
+| Course Mapping |    |   3 |   2 |   2 |   2 |   1 |   1 |   0 |   1 |   1 |    0 |    1 |    1 |    2 |    3 |    1 |
+
+
+{{{credits}}}
+| L | T | P | C |
+| 3 | 0 | 0 | 3 |
+#+begin_comment
+
+1.Anna University Regulation 2017 has this course. 
+2.The syllabus content across units were modified in Autonomous syllabus as adviced by the domain expert committee.Unit V(SOFTWARE QUALITY ASSURANCE) has been newly introduced.
+3.Not Applicable
+4. Five Course outcomes specified and aligned with units
+5.Not Applicable
+#+end_comment
+
+** Course Objectives
+- To be familiar with objectives, principles, process, and factors of software testing 
+- To learn the design of test cases using Black box approach and white box approaches
+- To understand and apply the levels of testing 
+- To understand automation methods in software testing
+- To test the product to check the product Quality.
+
+{{{unit}}}
+|UNIT I| TESTING FUNDAMENTALS |9| 
+Objectives and Principles: Fundamental test process -- Test levels --
+Establishing a testing policy -- Structured approach to testing --
+Test factors -- Developing risk matrix -- Steps in software testing
+process.
+#+begin_comment
+Introduction to testing, testing levels, appoaches, test factors, and steps for software testing is included.
+Removed the topics related with defects from anna university syllabus.
+#+end_comment
+{{{unit}}}
+|UNIT II|  TEST CASE DESIGN STRATEGIES AND METHODS |9| 
+Strategies and Methods for Test Case Design: Introduction to testing
+design strategies -- Test case design strategies -- Using the black
+box approach to test case design -- Random testing -- Equivalence
+class partitioning -- Boundary value analysis -- Cause-and-effect
+graphing -- State transition testing -- Error guessing; Using the
+white box approach to test design -- Coverage and control flow graphs
+-- Covering code logic -- Paths -- Data flow and white box test design
+-- Loop testing--Mutation testing;
+#+begin_comment
+Reordered the content according to black box and white box test case design methods.
+#+end_comment
+{{{unit}}}
+|UNIT III|  LEVELS OF TESTING |9| 
+Levels of Testing: The Need for levels of testing -- Unit test
+functions, procedures, classes and methods as units -- Unit test
+planning -- Designing the unit tests -- The test harness -- Running
+the unit tests and recording results -- Integration tests -- Designing
+integration tests -- Integration test planning -- System test --
+Functional testing -- Performance testing-- Stress testing --
+Configuration testing -- Security testing -- Recovery testing --
+Regression testing -- Alpha, beta and acceptance tests.
+#+begin_comment
+removed Testing the documentation –Website testing.
+#+end_comment
+{{{unit}}}
+|UNIT IV| TEST AUTOMATION AND MANAGEMENT |9|
+Test Planning, Management, execution and Reporting : Test planning --
+Management -- Process -- Reporting; Software Test Automation: Testing
+tools; Controlling and Monitoring the Testing Process: Measurements
+and milestones for controlling and monitoring -- Criteria for test
+completion -- Configuration management -- Controlling and monitoring.
+#+begin_comment
+-Test automation and Mangement is combined as Unit-IV, Whereas test management and automation are given in Unit IV and Unit V in anna university syllabus
+#+end_comment
+{{{unit}}}
+|UNIT V|SOFTWARE QUALITY ASSURANCE |9|
+Software Quality; Quality Factors: Product operation, revision and
+transition; Components of SQA: System and architecture; Pre-Project
+Components; Contract Review; Development and Quality Plans; SQA
+Components in Project Life Cycle: SQA defect removal policies;
+Reviews; Project progress control; Costs; Quality Management
+Standards; Project Process Standards; Management and its Role in SQA;
+SQA Unit.
+#+begin_comment
+-Newly added Unit
+#+end_comment
+\hfill *Total: 45*
+
+** COURSE OUTCOMES
+Upon the completion of the course the students should be able to: 
+- Understand software testing objectives,
+  principles and practices (K2)
+- Apply Black and whitebox approach to design test cases (K3)
+- Understand and apply levels of testing (K3)
+- Apply Automation tools for software testing in projects (K3)
+- Analyze the product Quality (K3).
+
+** TEXT BOOKS
+1) Gopalaswamy Ramesh, Srinivasan Desikan,``Software Testing:
+   Principles and Practices'', Pearson Education, New
+   Delhi, 2006 (Units I, IV).
+2) Llene Burnstein, ''Practical Software Testing'', Springer
+   International Edition, Chennai, 2003 (Units II, III, IV).
+
+** REFERENCES
+1. Aditya Mathur, ``Foundations of Software Testing'', Pearson
+   Education, 2008.
+2. Daniel Galin, ``Software Quality Assurance -- From Theory to
+   Implementation'', Pearson Education, 2009 (UNIT-V)
+3. Alan C Gillies, ``Software Quality Theory and Management'', 2nd
+   Edition,Cengage Learning, 2003.
+4. Robert Furtell, Donald Shafer, and Linda Shafer, ``Quality Software
+   Project Management'', Pearson Education Asia, 2002.
+5. Ron Patton, ``Software Testing'', 2nd Edition, Pearson
+   Education, 2007.
+

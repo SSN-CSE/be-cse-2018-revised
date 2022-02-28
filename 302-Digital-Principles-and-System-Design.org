@@ -1,0 +1,98 @@
+* <<<302>>> DIGITAL PRINCIPLES AND SYSTEM DESIGN
+:properties:
+:author: Ms. S. Angel Deborah and Mr. K. R. Sarath Chandran
+:date:
+:end:
+
+#+startup: showall
+#+begin_comment
+- 1. Same as R2017 AU
+- 3. Not Applicable
+- 4. Five Course outcomes specified and aligned with units
+- 5. Not Applicable
+#+end_comment
+** CO PO MAPPING :noexport:
+#+NAME: co-po-mapping
+|                |    | PO1 | PO2 | PO3 | PO4 | PO5 | PO6 | PO7 | PO8 | PO9 | PO10 | PO11 | PO12 | PSO1 | PSO2 | PSO3 |
+|                |    |  K3 |  K4 |  K5 |  K5 |  K6 |   - |   - |   - |   - |    - |    - |    - |   K5 |   K3 |   K6 |
+| CO1            | K3 |   3 |   2 |   2 |   0 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+| CO2            | K4 |   3 |   3 |   2 |   0 |   2 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    2 |
+| CO3            | K4 |   3 |   3 |   2 |   0 |   2 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    2 |
+| CO4            | K3 |   3 |   2 |   2 |   0 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+| CO5            | K3 |   3 |   2 |   2 |   0 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+| Score          |    |  15 |  12 |  10 |   0 |   7 |   0 |   0 |   5 |   5 |    5 |    0 |    5 |   10 |   15 |    7 |
+| Course Mapping |    |   3 |   3 |   2 |   0 |   2 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    2 |
+
+
+{{{credits}}}
+| L | T | P | C |
+| 3 | 0 | 0 | 3 |
+
+** COURSE OBJECTIVES
+- To design digital circuits using simplified Boolean functions
+- To analyze and design combinational circuits
+- To analyze and design synchronous and asynchronous sequential circuits
+- To understand Programmable Logic Devices
+- To write HDL code for combinational and sequential circuits.
+
+{{{unit}}}
+|UNIT I | BOOLEAN ALGEBRA AND LOGIC GATES | 9 |
+Number Systems -- Arithmetic Operations -- Binary Codes-- Boolean
+Algebra and Logic Gates -- Theorems and Properties of Boolean Algebra
+-- Boolean Functions -- Canonical and Standard Forms -- Simplification
+of Boolean Functions using Karnaugh Map -- Logic Gates – NAND and NOR
+Implementations.
+
+{{{unit}}}
+|UNIT II | COMBINATIONAL LOGIC | 9 |
+Combinational Circuits -- Analysis and Design Procedures -- Binary
+Adder--Subtractor -- Decimal Adder -- Binary Multiplier -- Magnitude
+Comparator -- Decoders -- Encoders -- Multiplexers -- Introduction to
+HDL -- HDL Models of Combinational circuits.
+
+{{{unit}}}
+|UNIT III | MEMORY AND PROGRAMMABLE LOGIC | 9 |
+RAM -- Memory Decoding -- Error Detection and Correction -- ROM --
+Programmable Logic Array -- Programmable Array Logic -- Sequential
+Programmable Devices.
+
+{{{unit}}}
+|UNIT IV | SYNCHRONOUS SEQUENTIAL LOGIC | 9 |
+Sequential Circuits -- Storage Elements: Latches , Flip--Flops;
+Analysis of Clocked Sequential Circuits -- State Reduction and
+Assignment -- Design Procedure -- Registers and Counters -- HDL Models
+of Sequential Circuits.
+
+{{{unit}}}
+|UNIT V | ASYNCHRONOUS SEQUENTIAL LOGIC | 9 |
+Analysis and Design of Asynchronous Sequential Circuits -- Reduction
+of State and Flow Tables -- Race-free State Assignment -- Hazards.
+
+\hfill *Total Periods: 45*
+
+** COURSE OUTCOMES
+After the completion of this course, students will be able to:
+- Simplify Boolean functions using KMap (K3)
+- Analyze and design Combinational Circuits (K4)
+- Analyze and design Sequential Circuits (K4)
+- Understand various memories and implement Boolean functions using
+  Programmable Logic Devices (K3)
+- Write HDL code for combinational and Sequential Circuits (K3).
+
+** TEXT BOOKS
+1. Morris R Mano, Michael D Ciletti, ``Digital Design: With an
+   Introduction to the Verilog HDL, VHDL, and SystemVerilog'', 6th
+   Edition, Pearson Education, 2017.
+2. S Salivahanan, S Arivazhagan, ``Digital Circuits and Design'',
+   5th edition, Oxford University Press, 2018.
+
+** REFERENCES
+1. G K Kharate, ``Digital Electronics'', Oxford University Press, 2010.
+2. John F Wakerly, ``Digital Design Principles and Practices'', 5th
+   Edition, Pearson Education, 2017.
+3. Charles H Roth Jr, Larry L Kinney,``Fundamentals of Logic Design'',
+   6th Edition,CENGAGE Learning, 2013.
+4. Donald D Givone,``Digital Principles and Design'', Tata Mc Graw
+   Hill, 2003.
+5. Thomas L Floyd, ``Digital Fundamentals'', 11th edition, Pearson
+   Education, 2017.

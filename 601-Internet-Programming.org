@@ -1,0 +1,145 @@
+* <<<601>>> INTERNET PROGRAMMING 
+:properties:
+:author: Dr. B. Prabavathy and Dr. V. S. Felix Enigo
+:end:
+
+#+BEGIN_COMMENT
+1. Comments for the inclusion and removal of the contents in this syllabus with respect to AU R-2017 have been included along with the units
+2. The syllabi for UG and PG are different to a larger extent
+3. Course outcomes are specified and aligned with the units 
+4. Suggestive experiments are specified in the separate lab course for this subject
+5. In Unit-I, Web server vulnerabilities and solutions has been added as suggested by Mr. Karthik
+#+END_COMMENT
+
+#+startup: showall
+** CO PO MAPPING :noexport:
+#+NAME: co-po-mapping
+|                |    | PO1 | PO2 | PO3 | PO4 | PO5 | PO6 | PO7 | PO8 | PO9 | PO10 | PO11 | PO12 | PSO1 | PSO2 | PSO3 |
+|                |    |  K3 |  K4 |  K5 |  K5 |  K6 |   - |   - |   - |   - |    - |    - |    - |   K5 |   K3 |   K6 |
+| CO1            | K3 |   3 |   2 |   2 |   0 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+| CO2            | K3 |   3 |   2 |   2 |   0 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+| CO3            | K3 |   3 |   2 |   2 |   0 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+| CO4            | K3 |   3 |   2 |   2 |   0 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+| CO5            | K3 |   3 |   2 |   2 |   0 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+| Score          |    |  15 |  10 |  10 |   0 |   5 |   0 |   0 |   5 |   5 |    5 |    0 |    5 |   10 |   15 |    5 |
+| Course Mapping |    |   3 |   2 |   2 |   0 |   1 |   0 |   0 |   1 |   1 |    1 |    0 |    1 |    2 |    3 |    1 |
+{{{credits}}}
+| L | T | P | C | 
+| 3 | 0 | 0 | 3 |
+
+** COURSE OBJECTIVES
+- To understand different client and server end technologies
+- To develop web application using traditional technologies
+- To understand and develop web applications using emerging web
+  application frameworks.
+
+{{{unit}}}
+|UNIT I | WEB ESSENTIALS | 9 |
+Web Essentials: Clients -- Servers -- Communication; Basic internet
+protocols -- World wide web -- HTTP Request Message -- HTTP Response
+Message -- Web Clients -- Web Servers; Web Server Security: Web server
+vulnerabilities -- Effects and types of attacks -- Avoiding attacks on
+web servers; HTML5: Tables -- Lists -- Image -- Redefined form
+elements -- Semantic elements -- Audio and video controls -- CSS3:
+Inline -- Embedded -- External style sheets -- Rule cascading --
+Inheritance -- Adding graphics to web pages -- Transformations --
+Transitions -- Animations.
+
+{{{unit}}}
+|UNIT II | CLIENT SIDE PROGRAMMING | 9 |
+Client side programming language -- Javascript: Variables -- Data
+types -- Statements -- Operators -- Objects -- Arrays -- Built-in
+objects -- Event handling -- DOM: Introduction -- Document tree --
+Node object -- Document -- Element -- Text nodes -- Event handling --
+Event propagation.
+
+#+BEGIN_COMMENT
+Removal
+   Contents related to JSON in AU R-2017 has been removed
+Thought Process
+   Due to time constraint
+   JSON is a structure used for tranferring data in web applications. Since it will not be explicitly  utilized for transfer in the development of web applications, it has been removed.      
+#+END_COMMENT
+
+{{{unit}}}
+|UNIT III | SERVER SIDE PROGRAMMING| 9 |
+Servlets: Architecture -- Life Cycle -- Parameter data -- Sessions --
+Cookies and URL rewriting -- AJAX: Ajax Client Server Architecture --
+XML Http Request Object -- Call Back Methods.
+
+#+BEGIN_COMMENT
+Removal
+    Contents related to JSP in AU R-2017 have been removed      
+Thought Process
+    Both servlet and JSP are serverside scripting languages
+    Since Servlet itself is enough for the students to undertand the configuration of web applications, JSP has been removed
+#+END_COMMENT
+
+{{{unit}}}
+|UNIT IV | CLIENT SIDE FRAMEWORK | 9 |
+Introduction to ReactJS –- Pure react: React elements -– ReactDOM –-
+Children -– Constructing elements with data -– React components;
+Props, state and compoenet tree –- React router: Incorporation –-
+Netsing -– Parameters; Communication of react with server.
+
+#+BEGIN_COMMENT
+Removal
+      PHP and XML in AU R-2017 have been removed
+Thought Process
+      PHP is yet another serverside scripting language
+      XML is a structure used for tranferring data in web applications. Since it will not be explicitly being utilized for trasnfer in the development of web applications 
+
+Inclusion
+      Concepts related to ReactJS have been included
+Thought process
+      It is a recently developed lightweight client side framework useful for quick development of web application
+#+END_COMMENT
+
+{{{unit}}}
+|UNIT V | SERVER SIDE FRAMEWORK | 9 |
+Introduction to NodeJS –- Event Loop -– Patterns -– Core APIs:
+EventEmitter -- Callback syntax -- Streams -- File system, -- Buffers
+-- Process module -- Data Access -– NoSQL and Document stores:
+MongoDB.
+
+#+BEGIN_COMMENT
+Removal
+      AJAX and Web services in AU R-2017 have been removed
+Thought Process
+      AJAX has been moved to Unit 3
+      Time constraint
+      Web services in a way is not much relevant with the development of web applications
+      Having understood the basics of web application development, one can futher explore how web services can be used in the development of web application in future relatively better
+Inclusion
+      Concepts related to NodeJS have been included
+Thought process
+      It is a recently developed lightweight sever side framework useful for quick development of web applications
+#+END_COMMENT
+
+\hfill *Total Periods: 45*
+
+** COURSE OUTCOMES
+After the completion of this course, students will be able to: 
+- Design modern websites using HTML5 and CSS3  (K3)
+- Design and implement dynamic web pages with JavaScript and DOM (K3)
+- Develop responsive web applications using Servlets and AJAX (K3)
+- Develop web applications using ReactJS framework (K3)
+- Develop web applications using NodeJS framework (K3).
+      
+** TEXT BOOKS
+1. Jeffrey C, Jackson, ``Web Technologies A Computer Science
+   Perspective'', Pearson Education, 2011. (Units 1,2,3)
+2. Matthew MacDonald, ``HTML5: The missing manual'', O'Reilly Media,
+   August 2011 (Unit 1)
+** REFERENCE BOOKS
+1. David McFarland, ``CSS3: The missing manual'', O'Reilly Media,
+   December 2012. (Unit 1)
+2. Alex Banks, Eve Porcello, ``Learning React: Functional Web
+   Development with React and Redux'', O'Reilly Media Inc.,
+   May 2017. (Unit 4)
+3. Tom Hughes-Crouchers and Mike Wilson, ``Node: Up and Running'', 1st
+   Edition, O'Reilly Media, 2012. (Unit 5)
+4. Uttam K Roy, ``Web Technologies'', Oxford University
+   Press, 2010. (Unit 3)
+5. ''How to Hack a Web Server'',
+   https://www.guru99.com/how-to-hack-web-server.html (Unit 1)

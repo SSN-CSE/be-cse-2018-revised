@@ -1,0 +1,123 @@
+* <<<PE203>>> IMAGE PROCESSING AND ANALYSIS
+:properties:
+:author: Ms. R. Priyadharsini and Ms. K. Lekshmi
+:date:  
+:end:
+#+startup: showall
+
+** CO PO MAPPING :noexport:
+#+NAME: co-po-mapping
+|                |    | PO1 | PO2 | PO3 | PO4 | PO5 | PO6 | PO7 | PO8 | PO9 | PO10 | PO11 | PO12 | PSO1 | PSO2 | PSO3 |
+|                |    |  K3 |  K4 |  K5 |  K5 |  K6 |   - |   - |   - |   - |    - |    - |    - |   K3 |   K3 |   K6 |
+| CO1            | K2 |   2 |   2 |   1 |   1 |   1 |   0 |   0 |   0 |   1 |    1 |    0 |    1 |    2 |    2 |    1 |
+| CO2            | K3 |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   0 |   1 |    1 |    0 |    1 |    3 |    3 |    1 |
+| CO3            | K2 |   2 |   2 |   1 |   1 |   1 |   0 |   0 |   0 |   1 |    1 |    0 |    1 |    2 |    2 |    1 |
+| CO4            | K3 |   3 |   2 |   2 |   2 |   1 |   0 |   1 |   0 |   1 |    1 |    0 |    1 |    3 |    3 |    1 |
+| CO5            | K3 |   3 |   2 |   2 |   2 |   1 |   0 |   1 |   0 |   1 |    1 |    0 |    1 |    3 |    3 |    1 |
+| Score          |    |  13 |  10 |   8 |   8 |   5 |   0 |   2 |   0 |   5 |    5 |    0 |    5 |   13 |   13 |    5 |
+| Course Mapping |    |   3 |   2 |   2 |   2 |   1 |   0 |   1 |   0 |   1 |    1 |    0 |    1 |    3 |    3 |    1 |
+
+#+begin_comment
+- 1. Almost the same as EC8093  DIGITAL IMAGE PROCESSING in AU 2017
+- 2. Change in Unit V (see the comment below unit V)
+- 3. Unit - II in PCP1279(M.E. CSE Image Processing and Analysis)is
+     split into Unit- II and III
+     Image segmentation and Feature analysis methods in Unit- III of PCP1279 are moved to Unit - IV and 
+     Unit - V respectively.
+     The topic object recognition is added in Unit - V
+- 4. Five Course outcomes specified and aligned with units
+- 5. Not Applicable.
+#+end_comment
+
+#+startup: showall
+
+{{{credits}}}
+| L | T | P | C |
+| 3 | 0 | 0 | 3 |
+
+** COURSE OBJECTIVES
+- To be familiar with digital image fundamentals
+- To understand the basics of simple image enhancement techniques in
+  Spatial and Frequency domain
+- To learn the concepts of degradation function and restoration
+  techniques
+- To study image segmentation and representation techniques
+- To be familiar with object recognition methods.
+
+{{{unit}}}
+|UNIT I | DIGITAL IMAGE FUNDAMENTALS | 9 |
+Introduction to Digital Image Processing: Components -- Image sensing
+and acquisition -- Image sampling and quantization; Relationships
+between Pixels; 2D Mathematical Preliminaries: Array vs matrix
+operations -- Linear vs nonlinear operations -- Arithmetic -- Logical
+-- Statistical -- Spatial operations.
+
+{{{unit}}}
+|UNIT II | IMAGE ENHANCEMENT | 9 |
+Spatial Domain: Gray level transformations -- Histogram processing;
+Basics of Spatial Filtering: Smoothing and sharpening spatial
+filtering; Frequency Domain: Introduction to fourier transform --
+Smoothing and Sharpening Frequency Domain Filters: Ideal --
+Butterworth -- Gaussian filters; Homomorphic Filtering.
+
+{{{unit}}}
+|UNIT III | IMAGE RESTORATION | 9 |
+Image Restoration: Degradation model; Noise models; Restoration in the
+Presence of Noise using Spatial Filtering: Mean filters -- Order
+statistics -- Adaptive filters; Periodic Noise Reduction by Frequency
+Domain Filtering: Band reject filters -- Band pass filters -- Notch
+filters -- Optimum notch filtering; Inverse filtering; Wiener
+filtering.
+
+{{{unit}}}
+|UNIT IV | IMAGE SEGMENTATION | 9 |
+Edge Detection: Edge linking via Hough transform; Thresholding:
+Intensity thresholding -- Otsu's thresholding; Region Based
+Segmentation: Region growing -- Region splitting and merging;
+Morphological Processing: Erosion and dilation; Segmentation by
+Morphological Watersheds: Basic concepts -- Dam construction --
+Watershed segmentation algorithm.
+
+{{{unit}}}
+|UNIT V | FEATURE ANALYSIS AND OBJECT RECOGNITION | 9 |
+Boundary representation; Boundary Descriptors: Fourier descriptor;
+Regional descriptors -- Texture; Relational descriptors; Object
+Recognition: Patterns and pattern classes; Recognition based on
+decision theoretic methods; Case Study for Image Recognition: Face
+recognition.
+
+#+begin_comment
+Removed: Image compression
+Added: Case Study for Image recognition
+#+end_comment
+
+\hfill *Total Periods: 45*
+
+** COURSE OUTCOMES
+After the completion of this course, students will be able to: 
+- Understand the basics and fundamentals of digital image processing,
+  such as digitization, sampling, quantization (K2)
+- Operate on images using the techniques of smoothing, sharpening and
+  enhancement in both spatial and frequency domain (K3)
+- Understand the restoration concepts and filtering techniques (K2)
+- Analyse the segmentation methods and apply in real time applications
+  (K3)
+- Understand and analyse the feature extraction and object recognition
+  methods (K3).
+   
+** TEXT BOOKS
+1. Rafael C Gonzalez, Richard E Woods, ``Digital Image Processing'',
+   Pearson, 3rd Edition, 2010.
+2. Anil K Jain, ``Fundamentals of Digital Image Processing'',
+   Pearson, 2002.
+   
+** REFERENCES
+1. Kenneth R Castleman, ``Digital Image Processing'', Pearson, 2006.
+2. Rafael C Gonzalez, Richard E Woods, Steven Eddins, ``Digital
+   Image Processing Using MATLAB'', Pearson Education, Inc., 2011.
+3. S Sridhar, ``Digital Image Processing'', 2nd Edition, Oxford University, 2016.
+4. William K Pratt, ``Digital Image Processing'', John Wiley, New
+   York, 2002.
+5. Milan Sonka, Roger Boyle, Vaclav Hlavac, ``Image Processing,
+   Analysis and Machine Vision'', Brookes/Cole, Vikas Publishing
+   House, 2nd edition, 1999.

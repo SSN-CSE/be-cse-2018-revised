@@ -1,0 +1,81 @@
+* <<<708>>> GRAPHICS AND MULTIMEDIA LAB
+:properties:
+:author: Ms. S. Lakshmi Priya and Mr. N. Sujaudeen
+:date: 13-11-18
+:end:
+* CO PO MAPPING :noexport:
+#+NAME: co-po-mapping
+|                |    | PO1 | PO2 | PO3 | PO4 | PO5 | PO6 | PO7 | PO8 | PO9 | PO10 | PO11 | PO12 | PSO1 | PSO2 | PSO3 |
+|                |    |  K3 |  K4 |  K5 |  K5 |  K6 |   - |   - |   - |   - |    - |    - |    - |   K3 |   K3 |   K6 |
+| CO1            | K3 |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   0 |   1 |    1 |    0 |    1 |    3 |    3 |    1 |
+| CO2            | K3 |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   0 |   1 |    1 |    0 |    1 |    3 |    3 |    1 |
+| CO3            | K3 |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   0 |   1 |    1 |    0 |    1 |    3 |    3 |    1 |
+| CO4            | K3 |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   0 |   2 |    2 |    0 |    2 |    3 |    3 |    1 |
+| CO5            | K3 |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   0 |   2 |    2 |    0 |    2 |    3 |    3 |    1 |
+| Score          |    |  15 |  10 |  10 |  10 |   5 |   0 |   0 |   0 |   7 |    7 |    0 |    7 |   15 |   15 |    5 |
+| Course Mapping |    |   3 |   2 |   2 |   2 |   1 |   0 |   0 |   0 |   2 |    2 |    0 |    2 |    3 |    3 |    1 |
+
+#+begin_comment
+1. 3D Animation experiment included
+2. 3D animation included to align with theory - Blender (Unit V)
+3. Not Applicable
+4. Five course outcomes clearly defined and aligned with experiments
+5. Lab requiremnts clearly outlined.
+#+end_comment
+
+#+startup: showall
+
+{{{credits}}}
+| L | T | P |   C |
+| 0 | 0 | 3 | 1.5 |
+
+** COURSE OBJECTIVES
+- Understand graphics programming in OpenGL using OpenGL and GLUT frameworks
+- Implement algorithms for line and circle drawing
+- Apply 2D, 3D transformations and clipping on objects
+- Learn to draw 3D objects and apply projection techniques
+- Explore image manipulation and enhancement techniques
+- Create 3D animation using any tool.
+
+
+** SUGGESTIVE EXPERIMENTS
+1. Study of Basic output primitives in OpenGL
+2. Implementation of Algorithms for drawing 2D Primitives –
+   - Line (DDA, Bresenham) - all slopes   
+   - Circle (Midpoint)
+3. 2D Geometric transformations – Translation, Rotation, Scaling,
+   Reflection and Shear
+4. 2D Composite Transformations and Window to viewport mapping
+5. Implementation of Line clipping algorithm
+6. 3D Geometric Transformations - Translation, Rotation and Scaling
+7. 3D Projections - Parallel and Perspective projection
+8. Image Editing and Manipulation -
+   - Basic Operations on image like applying masks, filters,
+     adding/removing noise
+   - Creating gif animated images
+9. Creation of a simple 2D animation
+10. Creation of a simple 3D animation
+
+\hfill *Total Periods: 45*
+
+** COURSE OUTCOMES
+After the completion of this course, students will be able to: 
+- Demonstrate drawing of basic output primitives (line and circle)
+  using algorithms and hence draw complex shapes using them (K3)
+- Apply basic, composite transformations and clipping on 2
+  dimensional objects (K3)
+- Apply transformations and projections on 3 dimensional objects and
+  develop any scene with features including lighting, textures,
+  shadows, changing camera angles (K3)
+- Apply basic operations on images, create GIF animated images
+  and 2D animation sequence (K3)
+- Develop a simple 3D animation (K3)
+
+** LABORATORY REQUIREMENT FOR BATCH OF 38 STUDENTS
+Hardware:\\
+1. Standalone Desktop Machines - 38 Nos
+
+Software:\\
+1. C/C++/Java 
+2. OpenGL/GIMP 
+3. Blender/Maya

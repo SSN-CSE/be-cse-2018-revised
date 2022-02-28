@@ -1,0 +1,128 @@
+* <<<PE301>>> SERVICE ORIENTED ARCHITECTURE
+:properties:
+:author: Dr. K. Vallidevi and Ms. Y. V. Lokeswari
+:date: 
+:end:
+
+#+begin_comment
+<<<<<<< HEAD
+Unit 1, 2, and 3 are same as R2017 Anna University Syllabus.  Unit 4:
+Have included the topic "XML Web services for .Net" which is availale
+in the second text book of the syllabus Unit 5: Replaced the old
+content from the second text book they are more relevant to the
+subject
+
+Second Text book of Anna University Syllabus is altered, which is
+authored by, Sahankar Kambhampaly...
+=======
+
+... Unit 1, 2, and 3 are same as R2017 Anna University Syllabus.
+Unit 4: Have included the topic "XML Web services for .Net" which is availale in the second
+  text book of the syllabus
+Unit 5: Replaced the old content from the second text book they are more relevant to the subject
+Second Text book of Anna University Syllabus is altered, which is authored by, Sahankar Kambhampaly...
+>>>>>>> 5d5289161a836ba341d59f8131b5db5fb2fb5cf2
+#+end_comment
+
+#+startup: showall
+
+{{{credits}}}
+| L | T | P | C |
+| 3 | 0 | 0 | 3 |
+
+** COURSE OBJECTIVES
+- To learn the fundamentals of XML
+- To understand Service Oriented Architecture, Web services and
+  their importance
+- To know the web services standards and technologies
+- To study the web service extensions
+- To develop SOA based applications using service oriented analysis
+  and design.
+
+{{{unit}}}
+|UNIT I|XML TECHNOLOGIES |9| 
+<<<<<<< HEAD
+XML Document Structure: Well-formed and valid documents -- DTD -- XML
+schema; Parsing XML using DOM -- SAX; XPath -- XML transformation and
+XSLT -- Xquery.
+
+{{{unit}}}
+| UNIT II | SERVICE ORIENTED ARCHITECTURE  BASICS |9|
+Characteristics of SOA -- Benefits of SOA -- Comparing SOA with client
+server and distributed architectures -- Principles of service
+orientation -- Service layers.
+
+{{{unit}}}
+| UNIT III | WEB SERVICES AND STANDARDS |8|
+Web Services Platform -- Service descriptions -- WSDL -- Messaging
+with SOAP -- Service discovery -- UDDI -- Service level interaction
+patterns -- Orchestration and choreography.
+
+{{{unit}}}
+| UNIT IV | WEB SERVICES EXTENSIONS |8|
+WS-Addressing -- WS-Reliable messaging -- WS-Policy -- WS-Coordination
+-- WS-Transactions -- WS-Security -- Examples -- XML web services for
+.Net.
+
+{{{unit}}}
+|UNIT V|SERVICE ORIENTED ANALYSIS AND DESIGN |11|
+Service oriented enterprise applications -- Service oriented analysis
+and design: Need for models -- Principles of service design -- Design
+of activity services -- Design of data services -- Design of client
+services -- Design of business process services.
+=======
+XML Document Structure: Well-formed and valid documents -- DTD -- XML schema;
+ Parsing XML using DOM -- SAX; XPath -- XML transformation and XSLT -- Xquery.
+
+{{{unit}}}
+| UNIT II | SERVICE ORIENTED ARCHITECTURE  BASICS |9|
+Characteristics of SOA -- Benefits of SOA -- Comparing SOA with client server and distributed architectures
+ -- Principles of service orientation -- Service layers.
+
+{{{unit}}}
+| UNIT III | WEB SERVICES AND STANDARDS |8|
+Web Services Platform -- Service descriptions -- WSDL -- Messaging with SOAP --
+ Service discovery -- UDDI -- Service level interaction patterns -- Orchestration and choreography.
+
+{{{unit}}}
+| UNIT IV | WEB SERVICES EXTENSIONS |8|
+WS-Addressing -- WS-Reliable messaging -- WS-Policy -- WS-Coordination -- WS-Transactions --
+ WS-Security -- Examples -- XML web services for .Net.
+
+
+{{{unit}}}
+|UNIT V|SERVICE ORIENTED ANALYSIS AND DESIGN |11|
+Service oriented enterprise applications -- Service Oriented Analysis and Design: Need for models -- 
+Principles of service design -- Design of activity services -- Design of data services -- 
+Design of client services -- Design of business process services.
+>>>>>>> 5d5289161a836ba341d59f8131b5db5fb2fb5cf2
+
+\hfill *Total Periods: 45*
+
+** COURSE OUTCOMES
+Upon the completion of the course the students should be able to: 
+- Understand XML technologies (K2)
+- Understand service orientation, benefits of SOA (K2)
+- Understand web services and WS standards (K2)
+- Apply web services extensions to develop solutions(K3)
+- Understand and apply service modeling, service oriented analysis and
+  design for application development (K3).
+
+** TEXT BOOKS
+1. Thomas Erl, ``Service Oriented Architecture: Concepts, Technology,
+   and Design'', Pearson Education, 2005.
+2. Sahankar Kambhampaly, ``Service-Oriented Architecture for Enterprise Applications'', 
+   Wiley India Pvt.Ltd, 2008
+
+** REFERENCES
+1. James McGovern, Sameer Tyagi, Michael E Stevens, Sunil Mathew,
+   ``Java Web Services Architecture'', Elsevier, 2003.
+2. Ron Schmelzer et al, ``XML and Web Services'', Pearson
+   Education, 2002.
+3. Frank P Coyle, ``XML, Web Services and the Data Revolution'',
+   Pearson Education, 2002.
+4. Sandeep Chatterjee, James Webber, ``Developing Enterprise Web
+   Services: An Architect's Guide'', Prentice Hall, 2004.
+5. Eric Newcomer, Greg Lomow, ``Understanding SOA with Web
+   Services'', Pearson Education, 2005.
+

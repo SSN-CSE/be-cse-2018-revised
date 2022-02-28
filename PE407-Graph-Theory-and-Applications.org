@@ -1,0 +1,90 @@
+* <<<PE407>>> GRAPH THEORY AND APPLICATIONS
+:properties:
+:author: Dr S Sheerazudeen, Dr R S Milton
+:date: 
+:end:
+
+#+startup: showall
+
+{{{credits}}}
+| L | T | P | C |
+| 3 | 0 | 0 | 3 |
+
+#+begin_comment:
+This course is based on a different text book therefore, the syllabus
+is entirely different. In particular, this course does not have any
+portions from Combinatorics as the one in Anna University curriculum.
+#+End_comment
+
+** Course Objectives
+- Be familiar with fundamental Graph Theory topics and results
+- Be exposed to the techniques of proofs and analysis.
+
+{{{unit}}}
+|UNIT I | INTRODUCTION| 8 |
+Graphs: Definition -- Graphs as models -- Matrices and isomorphism;
+Paths, Cycles and Trails: Connections in graphs -- Bipartite graphs --
+Eulerian circuits; Vertex Degrees and Counting: Counting and
+bijections -- Extremal problems; Directed Graphs: Definitions -- Vertex
+Degrees -- Eulerian graphs -- Orientation and tournaments.
+
+{{{unit}}}
+|UNIT II | TREES AND MATCHING | 9 |
+Basic Properties: Properties of trees -- Distance in trees and graphs;
+Spanning Trees and Enumeration: Enumeration of trees -- Spanning trees
+in graphs; Optimization and Trees: Minimum spanning trees -- Shortest
+paths -- Trees in Computer Science; Matchings and Covers: Maximum
+matching -- Hall’s matching condition -- Min-Max theorems -- Independent
+sets and covers; Algorithms: Maximum bipartite matching -- Weighted
+bipartite matching -- Stable matchings.
+
+{{{unit}}}
+|UNIT III | CONNECTIVITY AND COLORING | 9|
+Cuts and Connectivity: Connectivity -- Edge connectivity -- Blocks;
+K-Connected Graphs: 2-Connected Graphs -- Connectivity of digraphs --
+k-Connected and K-Edge-Connected Graphs; Network Flow Problems:
+Maximum network flow --  Integral Flows; Vertex Colorings and Upper
+Bounds: Definitions --  Upper bounds -- Brooks’ theorem; Structure of
+k-Chromatic Graphs: Graphs with large chromatic number -- Extremal
+problems and Turan’s theorem.
+
+{{{unit}}}
+|UNIT IV | PLANARITY, EDGES AND CYCLES | 8|
+Embeddings and Euler's Formula: Drawings in the plane -- Dual graphs --
+Euler's formula; Characterization of Planar Graphs: Kuratawoski’s
+theorem -- Convex embeddings -- Planarity testing; Line Graphs and Edge
+Colorings: Edge coloring -- Characterization of line graphs;
+Hamiltonian Cycles: Necessary and sufficient conditions -- Cycles in
+digraphs; Planarity, Coloring & Cycles: Tate’s theorem -- Grinberg’s
+theorem.
+
+{{{unit}}}
+|UNIT V | ADVANCED TOPICS  | 10 |
+Matroids: Properties of matroids -- Dual of a matroid -- Matroid
+operations; Ramsey Theory: Ramsey's theorem -- Ramsey numbers -- Graph
+ramsey theory; Random Graphs: Existence and expectation -- Properties
+of almost all graphs -- Threshold functions -- Martingales; Eigenvalues
+of Graphs: The Characteristic polynomial -- Eigenvalues and graph
+Parameters -- Eigenvalues of regular graphs -- Eigenvalues and
+expanders.
+
+\hfill *Total Periods: 45*
+
+** COURSE OUTCOMES
+After the completion of this course, students will be able to: 
+- Write precise mathematical definitions of objects in graph theory (K2)
+- Read and analyse proofs on Trees and Bipartite Graph matching (K3)
+- Read and analyse proofs on Graph Coloring and Connectivity (K3)
+- Read and analyse proofs on Graph Planarity (K3)
+- Read and analyse proofs on Matroids, Ramsey Theory, Graph Eigenvalues (K3).
+
+** REFERENCES
+1. Douglous West, ``Introduction to Graph Theory'', Pearson Education,
+   2nd Edition, 2015.
+2. Narsingh Deo, ``Graph Theory: With Application to Engineering and
+   Computer Science'', Prentice Hall of India, 2003.
+3. Frank Harary, ``Graph Theory'', Narosa Publishing House, 2001.
+4. Gary Chartrand, Ping Zhang, ``Introduction to Graph Theory'',
+   McGraw Hill Education, 2011.
+5. Adrian Bondy, U S R Murty, ``Graph Theory'', Springer, 2011.
+

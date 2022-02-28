@@ -1,0 +1,97 @@
+* <<<PE401>>> GPU COMPUTING
+:properties:
+:author: Dr. J. Suresh and Dr. D. Venkatavara Prasad
+:date: 
+:end:
+
+#+startup: showall
+
+** CO PO MAPPING :noexport:
+#+NAME: co-po-mapping
+|                |    | PO1 | PO2 | PO3 | PO4 | PO5 | PO6 | PO7 | PO8 | PO9 | PO10 | PO11 | PO12 | PSO1 | PSO2 | PSO3 |
+|                |    |  K3 |  K4 |  K5 |  K5 |  K6 |   - |   - |   - |   - |    - |    - |    - |   K3 |   K3 |   K6 |
+| CO1            | K2 |   2 | 2   | 1  | 1   | 1   |  0  | 0   | 0   | 0   | 0    |  0   |  0   | 2    | 2    | 1     |
+| CO2            | K3 |  3  | 2   | 2   | 2   | 1   | 0   | 0   | 0   | 0   | 0    | 0    | 0    | 3    |3     | 1    |
+| CO3            | K3 |   3 | 2   |2    | 2   | 1   | 0   | 0   | 0   |  0  |  0   |  0   | 0    | 3    | 3    |1     |
+| CO4            | K3 | 3   | 2   |2    | 2   | 1   | 0   | 0   | 0   |  0  |  0   |  0   | 0    | 3    | 3    |1     |
+| CO5            | K3 | 3   | 2   |2    | 2   | 1   | 0   | 0   | 0   |  0  |  0   |  0   | 0    | 3    | 3    |1     |
+| Score          |    | 14  | 12  | 11  | 11  | 5   | 0   | 0   | 0   | 0   |  0   | 0    | 0   | 14   | 14    | 5    |
+| Course Mapping |    |  3 | 2   |2    | 2   | 1   | 0   | 0   | 0   |  0  |  0   |  0   | 0    | 3    | 3    |1     |
+
+#+begin_comment
+- 1. Almost the same as AU - title changed
+- 2. Not Applicable
+- 3. Five Course outcomes specified and aligned with units
+- 4. Not Applicable
+#+end_comment
+
+
+{{{credits}}}
+| L | T | P | C |
+| 3 | 0 | 0 | 3 |
+
+** COURSE OBJECTIVES
+- To understand the basics of GPU architectures
+- To write programs for massively parallel processors
+- To understand the issues in mapping algorithms for GPUs
+- To introduce different GPU programming models
+- To understand the concepts of OpenCL.
+
+{{{unit}}}
+|UNIT I | GPU ARCHITECTURE | 12 |
+Evolution of GPU architectures -- Understanding Parallelism with GPU --
+Typical GPU Architecture -- CUDA Hardware Overview -- Threads, Blocks,
+Grids, Warps, Scheduling -- Memory Handling with CUDA: Shared memory,
+Global memory, Constant memory and Texture memory.
+
+{{{unit}}}
+|UNIT II | CUDA  PROGRAMMING | 8 |
+Using CUDA -- Multi GPU -- Multi GPU Solutions -- Optimizing CUDA
+Applications: Problem decomposition, Memory considerations, Transfers,
+Thread usage, Resource contentions.
+
+{{{unit}}}
+|UNIT III | PROGRAMMING ISSUES  | 8 |
+Common Problems: CUDA error handling, Parallel programming issues,
+Synchronization, Algorithmic issues, Finding and avoiding errors.
+
+{{{unit}}}
+|UNIT IV | OPENCL BASICS | 8 |
+OpenCL Standard -- Kernels -- Host Device Interaction -- Execution
+Environment -- Memory Model -- Basic OpenCL Examples.
+
+{{{unit}}}
+|UNIT V | ALGORITHMS ON GPU | 9 |
+Parallel Patterns: Convolution, Prefix Sum, Sparse Matrix -- Matrix
+Multiplication -- Programming Heterogeneous Cluster.
+
+
+\hfill *Total Periods: 45*
+
+** COURSE OUTCOMES
+After the completion of this course, students will be able to: 
+- Understand GPU architecture (K2)
+- Write programs using CUDA, identify issues and debug them (K3)
+- Implement efficient algorithms in GPUs for common application
+  kernels such as matrix multiplication (K3)
+- Write simple programs using OpenCL (K3)
+- Write an efficient parallel program for a given problem(K3).
+      
+** TEXT BOOKS
+1. Shane Cook, ``CUDA Programming: A Developer's Guide to Parallel
+   Computing with GPUs (Applications of GPU Computing)'', 1st
+   Edition, Morgan Kaufmann, 2012.
+2. David R Kaeli, Perhaad Mistry, Dana Schaa, Dong Ping Zhang,
+   ``Heterogeneous Computing with OpenCL'', 3rd Edition, Morgan
+   Kauffman, 2015.
+
+** REFERENCES
+1. David B Kirk, Wen-mei W Hwu, ``Programming Massively Parallel
+   Processors -- A Hands-on Approach'', 3rd Edition, Morgan
+   Kaufmann, 2016.
+2. Nicholas Wilt, ``CUDA Handbook: A Comprehensive Guide to GPU
+   Programming'', Addison - Wesley, 2013.
+3. Jason Sanders, Edward Kandrot, ``CUDA by Example: An Introduction
+   to General Purpose GPU Programming'', Addison - Wesley, 2010.
+4. http://www.nvidia.com/object/cuda_home_new.html	
+5. http://www.openCL.org

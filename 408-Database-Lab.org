@@ -1,0 +1,63 @@
+* <<<408>>> DATABASE LAB
+:properties:
+:author: Mr. B. Senthil Kumar and Dr. P. Mirunalini
+:date: 
+:end:
+
+#+startup: showall
+
+{{{credits}}}
+| L | T | P | C |
+| 0 | 0 | 3 | 1.5 |
+
+** COURSE OBJECTIVES
+- To understand data definitions and data manipulation commands
+- To learn about the use of nested and join queries
+- To understand procedural extensions of databases
+- To design a database schema for an application using Normalization
+- To implement typical database applications using Front-end tools
+
+** SUGGESTIVE EXPERIMENTS
+1. Data Definition Commands 
+   - Creating tables with constraints, constraint voilations
+   - schema modifications
+2. Data Manipulation Commands 
+   - Update operations
+   - Simple SQL queries
+   - Transaction Control statements - Savepoint and Rollback
+3. Complex SQL Queries
+   - Nested Queries
+   - Correlated Subqueries
+   - Joins and Outer Joins
+   - Aggregate functions
+   - Grouping and Ordering commands
+4. Views 
+5. Database Programming: PL/SQL - Cursors
+6. Procedures and Functions
+7. Triggers
+8. Exception Handling
+9. Database design 
+   - ER Model, ER-to-relational mapping
+   - Normalization
+10. Implement the database application using any Front-end
+
+\hfill *Total Periods: 45*
+
+** COURSE OUTCOMES
+After the completion of this course, students will be able to: 
+- Use data definitions and manipulation commands(K3)
+- Write complex SQL Queries(K3)
+- Implement Database programming using PL/SQL(K3)
+- Design a database for real-time applications(K3)
+- Implement and analyze the use of Tables, PL/SQL for a realistic
+  database applications using a Front-end tool(K3)
+
+** LABORATORY REQUIREMENT FOR BATCH OF 38 STUDENTS
+Hardware:\\
+1. Server - 1 Nos
+2. Standalone Desktops - 38 Nos
+
+Software:\\
+1. Database: Oracle 10g - 38 Clients with 1 Server Node
+2. Frontend - Netbeans / Java / JDBC
+  
