@@ -1,4 +1,4 @@
-* <<<PE308>>> SOFTWARE ARCHITECTURE
+* <<<UCS1726-PE308>>> SOFTWARE ARCHITECTURE
 :properties:
 :autho: Dr. Chitra Babu
 :date: 18 June 2019
