@@ -1,6 +1,6 @@
 * <<<PE202>>> SOFTWARE PROJECT MANAGEMENT
 :properties:
-:author: Dr. K. Vallidevi and Dr. A. Chamundeswari
+:author: Dr. A. Chamundeswari
 :date: 
 :end:
 
