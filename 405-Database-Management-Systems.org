@@ -14,7 +14,7 @@
 #+end_comment
 
 
-** CO PO MAPPING :noexport:
+
 #+NAME: co-po-mapping
 ** CO PO MAPPING :noexport:
 #+NAME: co-po-mapping
