@@ -112,6 +112,8 @@ After the completion of this course, students will be able to:
 - Apply transaction processing, concurrency control and recovery
   mechanisms for practical problems (K3)
 - Understand the concepts of NOSQL databases (K2).
+- Analyze data and design the database for real time applications with documentation(K4).
+
 
 ** TEXT BOOKS 
 1. Ramez Elmasri, Shamkant B Navathe, ``Fundamentals of Database
