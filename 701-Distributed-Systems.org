@@ -15,9 +15,8 @@
 | CO3            | K3 |   3 |   2 |   0 |   0 |   0 |   0 |   0 |   0 |   0 |    0 |    0 |    0 |    2 |    0 |    0 |
 | CO4            | K3 |   3 |   2 |   0 |   0 |   0 |   0 |   0 |   0 |   0 |    0 |    0 |    0 |    2 |    0 |    0 |
 | CO5            | K2 |   2 |   1 |   0 |   0 |   0 |   0 |   0 |   0 |   0 |    0 |    0 |    0 |    1 |    0 |    0 |
-| CO6            | K6 |   3 |   3 |   3 |   0 |   0 |   0 |   0 |   0 |   0 |    0 |    0 |    2 |    3 |    0 |    0 |
-| Score          |    |  16 |  11 |   3 |   0 |   0 |   0 |   0 |   0 |   0 |    0 |    0 |    2 |   11 |    0 |    0 |
-| Course Mapping |    |   3 |   2 |   3 |   0 |   0 |   0 |   0 |   0 |   0 |    0 |    0 |    2 |    2 |    0 |    0 |
+| Score          |    |  13 |   8 |   0 |   0 |   0 |   0 |   0 |   0 |   0 |    0 |    0 |    0 |    8 |    0 |    0 |
+| Course Mapping |    |   3 |   2 |   0 |   0 |   0 |   0 |   0 |   0 |   0 |    0 |    0 |    0 |    2 |    0 |    0 |
 
 {{{credits}}}
 | L | T | P | C |
@@ -123,7 +122,6 @@ Upon the completion of the course the students should be able to:
 - Demonstrate the resource sharing techniques in Distributed systems. [K3]
 - Comprehend the working model of consensus and reliability of Distributed Systems. [K3]
 - Identify the fundamentals of Peer-to-Peer Systems. [K2]
-- Formulate a synchronization problem for an ad-hoc distributed system and adapt its solution. [K6]
 
 ** TEXT BOOKS
 1. Kshemkalyani Ajay D, Mukesh Singhal. ``Distributed computing:
