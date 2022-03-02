@@ -112,7 +112,7 @@ After the completion of this course, students will be able to:
 - Apply transaction processing, concurrency control and recovery
   mechanisms for practical problems (K3)
 - Understand the concepts of NOSQL databases (K2).
-- Design the database schema by analyzing the data for a real time application with documentation(K5).
+- Design the database schema by analyzing the data for a real time application with documentation(K6).
 
 
 ** TEXT BOOKS 
