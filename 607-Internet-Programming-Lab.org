@@ -44,7 +44,7 @@ After the completion of this course, students will be able to:
 - Develop multi-tier web application using Servlets (K3)
 - Develop interactive web applications using AJAX (K3)
 - Develop web applications using ReactJS framework (K3)
-- Develop web applications using NodeJS framework (K3)
+- Develop web applications using NodeJS framework (K6)
 
 ** LABORATORY REQUIREMENT FOR BATCH OF 38 STUDENTS
 Hardware:\\
