@@ -12,9 +12,9 @@
 | CO2            |  3 |   2 |   2 |     |     |     |     |     |     |      |      |      |    2 |      |      |
 | CO3            |  3 |   2 |   2 |     |     |     |     |     |     |      |      |      |    2 |      |      |
 | CO4            |  3 |   2 |   2 |     |     |     |     |     |     |      |      |      |    2 |      |      |
-| CO5            |  3 |   2 |   2 |     |     |     |     |     |     |      |      |      |    2 |    3 |      |
-| Score          | 15 |  10 |   8 |     |     |     |     |     |     |      |      |      |   10 |    3 |      |
-| Course Mapping |  3 |   2 |   2 |     |     |     |     |     |     |      |      |      |    2 |    3 |      |
+| CO5            |  3 |   3 |   3 |     |     |     |     |     |     |      |      |      |    2 |    3 |      |
+| Score          | 15 |  11 |   9 |     |     |     |     |     |     |      |      |      |   10 |    3 |      |
+| Course Mapping |  3 |   3 |   2 |     |     |     |     |     |     |      |      |      |    2 |    3 |      |
 
 
 {{{credits}}}
@@ -30,6 +30,8 @@
  3.Not Applicable
 4. Five Course outcomes specified and aligned with units
 5.Not Applicable
+
+CO5 is to be considered for internal mark assigment as it is mapped liked that
 #+end_comment
 
 ** COURSE OBJECTIVES
