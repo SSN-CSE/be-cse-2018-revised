@@ -38,10 +38,9 @@
 
 ** COURSE OUTCOMES
 After the completion of this course, students will be able to: 
-- Implement linear data structures and apply them to solve a given problem (K3) 
-- Implement non-linear data structures and use them for various applications (K3)
-- Analyze a problem statement and suggest an appropriate linear / non-linear data structure
-  for solving it (K4)
+- Implement linear and nonlinear data structures to solve a given problem (K3)
+- Implement nonlinear data structures and use them for various applications (K3)
+- Analyze a problem statement and suggest an appropriate linear/ nonlinear data structure for solving it (K4)
 - Implement sorting and searching algorithms (K3)
 - Implement hashing techniques for data storage and retrieval (K3).
 
