@@ -19,6 +19,14 @@ Regarding BoS Comments:
 course content.
 #+end_comment
 
+#+begin_comment
+1. checking validity of certificates, how to interact with Certificate
+Authorities, Certificate Revocations (CRL and OCSP) is already covered
+in Unit I.
+
+2. ASN.1 encoding formats will deviate the flow of the syllabus.
+#+end_comment
+
 {{{credits}}}
 | L | T | P | C |
 | 3 | 0 | 0 | 3 |
@@ -106,12 +114,4 @@ After the completion of this course, students will be able to:
 | CO5            |   3 |   2 |     |    |    |    |    |    |    |     |     |     |    2 |    |    |
 | Score          |  15 |  10 |     |    |    |    |    |    |    |     |     |     |   10 |    |    |
 | Course Mapping |   3 |   2 |     |    |    |    |    |    |    |     |     |     |    2 |    |    |
-   
-   
-#+begin_comment
-1. checking validity of certificates, how to interact with Certificate
-Authorities, Certificate Revocations (CRL and OCSP) is already covered
-in Unit I.
-
-2. ASN.1 encoding formats will deviate the flow of the syllabus.
-#+end_comment
+      
